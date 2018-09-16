@@ -1,0 +1,24 @@
+## Interface: 30300
+## Title: Volumizer
+## Notes: Volume control panel.
+## Author: Torhal
+## Version: 4.0.1-1.2.4
+## SavedVariables: VolumizerPresets
+## X-Date: 2010-07-28T20:19:06Z
+## X-Email: torhal-wow@googlegroups.com
+## X-Category: Audio & Video
+## X-Curse-Packaged-Version: 4.0.1-1.2.4
+## X-Curse-Project-Name: Volumizer
+## X-Curse-Project-ID: volumizer
+## X-Curse-Repository-ID: wow/volumizer/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: Delayed
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip
+
+Libs\LibDataBroker-1.1.lua
+
+Volumizer.lua

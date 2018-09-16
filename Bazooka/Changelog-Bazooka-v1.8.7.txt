@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r149 | mitch0 | 2010-06-23 07:00:17 +0000 (Wed, 23 Jun 2010) | 2 lines
+Changed paths:
+   A /tags/v1.8.7 (from /trunk:148)
+
+Tagging as v1.8.7
+- fix ticket-14 (libjostle issue with 3.3.5 patch)
+------------------------------------------------------------------------
+r148 | mitch0 | 2010-06-23 06:54:22 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+erm, use latest ace3 alpha, as it seems it hasn't been tagged in a while
+------------------------------------------------------------------------
+r147 | mitch0 | 2010-06-23 06:51:00 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Bazooka.toc
+
+version bump, pull in new libjostle for 3.3.5, fix ticket-14
+------------------------------------------------------------------------

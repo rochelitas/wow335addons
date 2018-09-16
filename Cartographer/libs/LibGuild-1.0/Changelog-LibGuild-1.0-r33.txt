@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r33 | kemayo | 2009-05-20 03:41:24 +0000 (Wed, 20 May 2009) | 1 line
+Changed paths:
+   M /trunk/LibGuild-1.0.toc
+
+Bump TOC
+------------------------------------------------------------------------
+r32 | nevcairiel | 2009-03-06 10:12:19 +0000 (Fri, 06 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/LibGuild-1.0.toc
+
+Restore LoD to Libraries, as 3.0.8 fixed all bugs that blocked LoD OptionalDeps to load properly.
+------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: LootCount |r|cFF9900FFKill-counter REP|r
+## Notes: LootCount Reputation kill-counters
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Author: Evil Duck
+## SavedVariables:
+## SavedVariablesPerCharacter:
+## Dependencies: LootCount
+##
+
+LootCount_REP.xml

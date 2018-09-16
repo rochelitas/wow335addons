@@ -1,0 +1,15 @@
+## Title: Configator |cff66CCFF(lib)|r
+## Notes: Easily construct a GUI configuration editor.
+##
+## Interface: 30100
+## LoadOnDemand: 0
+##
+## Version: 3.1.13 (<%codename%>)
+## Revision: $Id: Configator.toc 209 2009-04-14 19:51:51Z aesir $
+## Author: Norganna's AddOns
+## URL: http://AuctioneerAddOn.Com/
+## X-Category: Auction House 
+## X-Feedback:  http://Forums.Norganna.Org
+## X-part-of: Auctioneer
+##
+Load.xml

@@ -1,0 +1,10 @@
+Message: Interface\AddOns\MobInfo2\MI2_Config.lua:7: attempt to index global 'MI2_OPTIONS' (a nil value)
+Time: 09/16/18 09:40:01
+Count: 1
+Stack: Interface\AddOns\MobInfo2\MI2_Config.lua:7: in main chunk
+
+Locals: (*temporary) = nil
+(*temporary) = <table> {
+}
+(*temporary) = nil
+(*temporary) = "attempt to index global 'MI2_OPTIONS' (a nil value)"

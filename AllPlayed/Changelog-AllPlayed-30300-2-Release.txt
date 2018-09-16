@@ -1,0 +1,35 @@
+------------------------------------------------------------------------
+r212 | laotseu | 2010-05-03 23:33:56 +0000 (Mon, 03 May 2010) | 10 lines
+Changed paths:
+   A /tags/30300-2-Release (from /trunk:211)
+
+Tagging as 30300-2-Release
+
+** Important: the internal format of the \WTF\Account\<account name>\SavedVariables\AllPlayed.lua has changed. AllPlayed will convert the data but not the settings. Please backup your old SavedVariables file. **
+- Removed Fubar support (use Broker2Fubar)
+- Use LibQTip instead of TabletLib for main tooltip
+- Use LibDBIcon instead of FubarPluggin for standalone mode
+- Some work to reduce the memory increase when the tooltip stays open with a fast refresh rate
+- Use standard Blizzard menu instead of Dewdrop
+- Use Ace3 instead of Ace2
+- Updated translations
+------------------------------------------------------------------------
+r210 | LaoTseu | 2010-04-18 14:02:10 +0000 (Sun, 18 Apr 2010) | 4 lines
+Changed paths:
+   M /trunk/AllPlayed-koKR.lua
+   M /trunk/AllPlayed-zhCN.lua
+   M /trunk/AllPlayed-zhTW.lua
+   M /trunk/AllPlayed.toc
+
+AllPlayed:
+- New zhCN and zhTW phrases from Mars1491 (generated from http://www.wowace.com/addons/all-played-laotseu/localization/)
+- New koKR phrases from chkid (generated from http://www.wowace.com/addons/all-played-laotseu/localization/)
+- Obviously, I can't validate anything is those except basic LUA compiler check. If anything is wrong with the translations, please let me know.
+------------------------------------------------------------------------
+r209 | LaoTseu | 2010-03-02 15:22:39 +0000 (Tue, 02 Mar 2010) | 2 lines
+Changed paths:
+   M /trunk/AllPlayed.toc
+
+AllPlayed:
+- New version of the frFR notes in the TOC file
+------------------------------------------------------------------------

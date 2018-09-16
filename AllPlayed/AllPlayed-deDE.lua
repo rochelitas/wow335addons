@@ -1,0 +1,98 @@
+﻿-- AllPlayed-deDE.lua
+-- $Id: AllPlayed-deDE.lua 194 2010-01-10 06:16:36Z LaoTseu $
+if not AllPlayed_revision then AllPlayed_revision = {} end
+AllPlayed_revision.deDE	= ("$Revision: 194 $"):match("(%d+)")
+
+local L = LibStub("AceLocale-3.0"):NewLocale("AllPlayed", "deDE")
+if not L then return end
+
+        -- Faction names 
+--        L["Alliance"]                                            		= "Allianz"
+--        L["Horde"]                                               		= "Horde" 
+
+-- Tablet title
+L["All Played Breakdown"]                                		= "Auflistung der gesamten Spielzeit" 
+
+-- Menus
+L["AllPlayed Configuration"]						= "AllPlayed Konfiguration"
+L["Display"]                                             		= "Anzeige" 
+L["Set the display options"]                             		= "Anezigeoptionen" 
+L["All Factions"]                                        		= "Alle Fraktionen" 
+L["All factions will be displayed"]                      		= "Alle Fraktionen werden angezeigt" 
+L["All Realms"]                                          		= "Alle Realms" 
+L["All realms will de displayed"]                        		= "Alle Realms werden angezeigt" 
+L["Show Seconds"]                                        		= "Zeige Sekunden" 
+L["Display the seconds in the time strings"]             		= "Zeige Sekunden in den Zeitstrings an" 
+L["Show Gold"]                                       			= "Zeige Gold"
+L["Display the gold each character pocess"]     		    	= "Zeigt das Gold an was jeder Charakter besitzt"
+L["Show XP Progress"]                                    		= "Zeige XP Verlauf"
+L["Display XP progress as a decimal value appended to the level"]       		= "Zeige Levelbruchteil basierend auf den aktuellen XP"
+L["Show XP total"]							 	= "Zeige Gesamt XP"
+L["Show the total XP for all characters"]				= "Zeige XP aller Charaktere insgesamt"
+L["Rested XP"]                                           		= "Erholt-XP"
+L["Set the rested XP options"]                               		= "Setzt die Erholt-XP Optionen"
+L["Rested XP Total"]                                 			= "Gesamt Erholt-XP"
+L["Show the character rested XP"]                            		= "Zeigt die Erholt-XP des Charakters"
+L["Percent Rest"]                                            		= "Zeige Erholt-XP in %" 
+L["Set the base for % display of rested XP"]                 		= "Setzt die Basis f\195\188r die Prozentanzeige der Erholt-XP" 
+L["Rested XP Countdown"]                                     		= "Erholt-XP Countdown"
+L["Show the time remaining before the character is 100% rested"]	= "Zeigt die Restezeit bis der Charakter 100% erholt ist"
+L["Show Class Name"]                                     		= "Zeige Klassennamen"
+L["Show the character class beside the level"]           		= "Zeigt die Charakterklasse neben dem Level"
+L["Show Location"]								= "Zeige Ort"
+L["Show the character location"]			            		= "Zeigt den Standort des Charakters"
+L["Don't show location"]							= "Zeige Ort nicht an"
+L["Show zone"]								= "Zeige Zone"
+L["Show subzone"]								= "Zeige Subzone"
+L["Show zone/subzone"]							= "Zeige Zone/Subzone"
+L["Colorize Class"]                                      		= "Klassen F\195\164rben"
+L["Colorize the character name based on class"]             		= "F\195\164rbe die Charakternamen nach Klasse"
+L["Use Old Shaman Colour"]							= "Alte Schmanenfarbe benutzen"
+L["Use the pre-210 patch colour for the Shaman class"]		  	= "Verwende die Farbe die vor dem 2.1 Patch f\195\188r Schmanen benutzt wurde"
+L["Sort Type"]								= "Sortiertyp"
+L["Select the sort type"]							= "W\195\164hlt den Sortiertyp aus"
+L["By name"]									= "Nach Namen"
+L["By level"]									= "Nach Farbe"
+L["By experience"]								= "Nach Erfahrung"
+L["By rested XP"]								= "Nach Erholt-XP"
+L["By % rested"]								= "Nach Erholt-%"
+L["By money"]									= "Nach Geld"
+L["By time played"]								= "Nach Spielzeit"
+L["Sort in reverse order"]							= "Sortiere in umgekehrter Reihenfolge"
+L["Use the curent sort type in reverse order"]				= "Sortiert nach ausgew\195\164hltem Sortiertyp in umgekehrter Reihenfolge"
+L["Font Size"]								= "Schriftgr\195\182\195\159e"
+L["Select the font size"]							= "W\195\164hlt die Schriftgr\195\182\195\159e aus"
+L["Opacity"]      								= "Transparenz"
+L["% opacity of the tooltip background"]					= "Transparenz in % des Tooltiphintergrundes"
+L["Sort"]									= "Sortieren"
+L["Set the sort options"]							= "Setzt die Sortieroptionen"
+L["Ignore Characters"]                                       		= "Ignoriere Charaktere" 
+L["Hide characters from display"]                           		= "Versteckt Charaktere" 
+L["Hide %s of %s from display"]				            	= "Versteckt %s von %s"
+L["BC Installed?"]                                          		= "BC Installiert" 
+L["Is the Burning Crusade expansion installed?"]            		= "Ist die Burning Crusade Erweiterung Installiert?" 
+L["Close"]                                               		= "Schlie\195\159en" 
+L["Close the tooltip"]                                   		= "Schlie\195\159t den Tooltip" 
+L["None"]                                                		= "Kein"
+
+-- Strings
+L["v%s - %s (Type /ap for help)"]                        		= "v%s - %s (Tippe /ap f\195\188r Hilfe)" 
+L["%s characters "]                                      		= "%s Charaktere " 
+L["%d rested XP"]                                     			= "%d Erholt-XP" 
+L["rested"]                                       		       = "Erholt" 
+L["Total %s Time Played: "]                              		= "Gesamt %s Zeit gespielt: " 
+L["Total %s Cash Value: "]                               		= "Gesamt %s Gold: " 
+L["Total Time Played: "]                                 		= "Gesamt Zeit gespielt: " 
+L["Total Cash Value: "]                                  		= "Gesamt Gold: " 
+L["Total XP: "]							       = "Gesamt XP"
+L["Unknown"]								       = "Unbekannt"
+L["%.1f M XP"]							       = "%.1f M XP"
+L["%.1f K XP"]							       = "%.1f K XP"
+L["%d XP"]								       = "%d XP"
+
+-- Console commands
+L["/allplayed"]                                          		= "/allplayed" 
+L["/ap"]                                                 		= "/ap" 
+L["/allplayedcl"]                                         		= "/allplayedcl" 
+L["/apcl"]                                                		= "/apcl" 
+

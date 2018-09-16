@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: LootCount |r|cFF9900FFRepair|r
+## Notes: LootCount repair-cost
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Author: Evil Duck
+## SavedVariables:
+## SavedVariablesPerCharacter:
+## Dependencies: LootCount
+##
+
+LootCount_Repair.xml

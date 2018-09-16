@@ -1,0 +1,2 @@
+David Lynch:
+	- Expand upon slot verification, with more debug logging.

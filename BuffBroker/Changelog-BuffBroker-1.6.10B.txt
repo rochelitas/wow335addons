@@ -1,0 +1,135 @@
+------------------------------------------------------------------------
+r213 | neaves | 2010-07-04 08:18:36 +0000 (Sun, 04 Jul 2010) | 1 line
+Changed paths:
+   A /tags/1.6.10B (from /trunk:212)
+
+Tagging as 1.6.10B
+------------------------------------------------------------------------
+r212 | neaves | 2010-07-04 08:17:58 +0000 (Sun, 04 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+removed debug statements (that didn't entirely work) [bugfix]
+------------------------------------------------------------------------
+r209 | neaves | 2010-07-02 00:27:59 +0000 (Fri, 02 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+Added nil check on login [bugfix];  suggestions for other classes will no longer default to self-cast [bugfix]
+------------------------------------------------------------------------
+r207 | neaves | 2010-07-01 23:12:46 +0000 (Thu, 01 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+Beast pets with mana will now correctly share buffs with Warriors [bugfix]
+------------------------------------------------------------------------
+r206 | neaves | 2010-07-01 22:43:41 +0000 (Thu, 01 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+Buffs cast by non-party members now persists in cache [bugfix];  'better spell is active' error now properly impacts single and group target suggestions [bugfix];  players with a more powerful buff version will no longer be the target for group buff application [bugfix]
+------------------------------------------------------------------------
+r204 | neaves | 2010-06-24 05:51:48 +0000 (Thu, 24 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+extra error checking when players leave party, should prevent an array access error [bugfix]
+------------------------------------------------------------------------
+r202 | neaves | 2010-06-15 23:35:20 +0000 (Tue, 15 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.toc
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+cleaned up non-localized strings for addon name, console interaction [infrastructure];  Russian localization added [feature]
+------------------------------------------------------------------------
+r200 | neaves | 2010-06-15 04:26:25 +0000 (Tue, 15 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+added initial player inspection event [feature]
+------------------------------------------------------------------------
+r199 | neaves | 2010-06-15 04:17:29 +0000 (Tue, 15 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+Protected Frames no longer touched during combat lockdown, might prevent some taint-related errors [bugfix]
+------------------------------------------------------------------------
+r197 | neaves | 2010-06-14 05:07:47 +0000 (Mon, 14 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+added shadowform [feature]; added balance & resto shapeshift forms [feature]; added obscurity flags to units, to denote inability to buff [infrastructure]; phase shifted imps are now correctly ignored [bugfix]
+------------------------------------------------------------------------
+r195 | neaves | 2010-06-14 01:47:45 +0000 (Mon, 14 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   M /trunk/Locales/esMX.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+added per-spec buff choices [infrastructure]; iterated on save format versioning [bugfix]; fixed 0 check in buffs that never expire [bugfix]; added Righteous Fury [feature];  made new category in configuration for support/testing [infrastructure]; small format change to embedded localization positioning [infrastructure]
+------------------------------------------------------------------------
+r193 | neaves | 2010-06-13 05:03:44 +0000 (Sun, 13 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+
+localized new config setting [bugfix]; corrected \n mismatch [bugfix]; removed superflous typos [bugfix]
+------------------------------------------------------------------------
+r191 | neaves | 2010-06-13 01:57:12 +0000 (Sun, 13 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+fixed array index error when joining a party [bugfix];  German localization added [feature];  localized version of role now used [bugfix]; greater buff that would override a lesser buff now correctly marked "better active" [bugfix]
+------------------------------------------------------------------------
+r189 | neaves | 2010-06-07 05:55:55 +0000 (Mon, 07 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+fixed problem with player inspection [bugfix]
+------------------------------------------------------------------------
+r187 | neaves | 2010-06-06 08:32:01 +0000 (Sun, 06 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+removed debug statement [bugfix]
+------------------------------------------------------------------------
+r186 | neaves | 2010-06-06 08:30:42 +0000 (Sun, 06 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+corrected warlock pet class/match [bugfix]
+------------------------------------------------------------------------
+r184 | neaves | 2010-06-05 17:28:55 +0000 (Sat, 05 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+ButtonFacade settings now persist across sessions [bugfix];  skinning settings now correctly appear in the ButtonFacade UI [bugfix]
+------------------------------------------------------------------------
+r182 | neaves | 2010-06-03 03:45:58 +0000 (Thu, 03 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/BuffBroker.lua
+   M /trunk/BuffBroker.xcodeproj/neaves.mode1v3
+
+corrected GUID parse, preventing profiling of some characters [bugfix]
+------------------------------------------------------------------------

@@ -1,0 +1,80 @@
+------------------------------------------------------------------------
+r142 | Cladhaire-15704 | 2009-12-10 10:52:33 +0000 (Thu, 10 Dec 2009) | 1 line
+Changed paths:
+   A /tags/r141-release (from /trunk:141)
+
+Tagging r141-release
+------------------------------------------------------------------------
+r141 | Cladhaire-15704 | 2009-12-10 10:51:23 +0000 (Thu, 10 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Clique.lua
+
+Fix click-casting for Target of Target frame, and add click casting for focus-target and boss frames
+------------------------------------------------------------------------
+r139 | Cladhaire-15704 | 2009-12-09 10:28:59 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Clique.lua
+
+Removing leftover debug messages
+------------------------------------------------------------------------
+r137 | Cladhaire-15704 | 2009-12-09 10:20:16 +0000 (Wed, 09 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Clique.lua
+
+Fix for out-of-combat helpful spell bug
+------------------------------------------------------------------------
+r135 | Cladhaire-15704 | 2009-12-08 23:54:43 +0000 (Tue, 08 Dec 2009) | 1 line
+Changed paths:
+   M /trunk/Clique.toc
+
+TOC Update for 3.3
+------------------------------------------------------------------------
+r134 | Cladhaire-15704 | 2009-12-08 23:53:03 +0000 (Tue, 08 Dec 2009) | 2 lines
+Changed paths:
+   M /trunk/Clique.lua
+
+Fix a bug that was causing helpful/harmful bindings to override out-of-combat bindings
+
+------------------------------------------------------------------------
+r132 | Cladhaire-15704 | 2009-11-27 10:46:11 +0000 (Fri, 27 Nov 2009) | 1 line
+Changed paths:
+   M /trunk/CliqueOptions.lua
+
+Fix a display issue for binding entries
+------------------------------------------------------------------------
+r130 | Cladhaire-15704 | 2009-11-14 18:04:53 +0000 (Sat, 14 Nov 2009) | 2 lines
+Changed paths:
+   M /trunk/CliqueOptions.lua
+
+Fix the sorting of higher button options
+
+------------------------------------------------------------------------
+r129 | Cladhaire-15704 | 2009-11-14 17:55:35 +0000 (Sat, 14 Nov 2009) | 11 lines
+Changed paths:
+   M /trunk/CliqueOptions.lua
+
+Added support for Steelseries MMO Gaming Mouse, with a few caveats and setup requirements:
+
+  * You must open the Steelseries mouse configuration screen and set each button (except Left/Right/Middle/Button4/Button5) to "Disable/Clear".  This ensures they don't try to send WoW commands, which it does by sending keyboard keys (like M to open the map).
+  
+  * You should disable "Enable in-game mode".
+
+  * In-game you must open interface options, and go to the mouse configuration tab.  There you need to select "Detect WoW Mouse".  If it doesn't work, you'll need to play with things a bit.
+
+Then you should be able to use the mouse natively, taking advantage of all buttons in Clique and WoW in general (as buttons, not as keys).
+
+
+------------------------------------------------------------------------
+r128 | Cladhaire-15704 | 2009-11-14 17:45:00 +0000 (Sat, 14 Nov 2009) | 1 line
+Changed paths:
+   M /trunk/CliqueOptions.lua
+
+
+------------------------------------------------------------------------
+r127 | Cladhaire-15704 | 2009-11-02 15:01:09 +0000 (Mon, 02 Nov 2009) | 1 line
+Changed paths:
+   M /trunk/Clique.lua
+   M /trunk/CliqueUtils.lua
+
+Added support for extra mouse buttons
+------------------------------------------------------------------------

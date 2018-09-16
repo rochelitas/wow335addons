@@ -1,0 +1,8 @@
+------------------------------------------------------------------------
+r111 | ammo | 2010-10-03 01:34:56 -0500 (Sun, 03 Oct 2010) | 2 lines
+Changed paths:
+   M /trunk/Conditions.lua
+
+Change X-LoadOn-Guild to load on guil_roster_update and guild_xp_update as well, this will make it work when joining a guild. Thanks Tekkub.
+
+------------------------------------------------------------------------

@@ -1,0 +1,77 @@
+Message: Interface\AddOns\MobInfo2\MI2_Tooltip.lua:358: attempt to index field 'val' (a nil value)
+Time: 09/16/18 09:49:13
+Count: 4
+Stack: Interface\AddOns\MobInfo2\MI2_Tooltip.lua:358: in function <Interface\AddOns\MobInfo2\MI2_Tooltip.lua:339>
+Interface\AddOns\MobInfo2\MI2_Tooltip.lua:407: in function <Interface\AddOns\MobInfo2\MI2_Tooltip.lua:395>
+Interface\AddOns\MobInfo2\MI2_Tooltip.lua:514: in function `MI2_CreateTooltip'
+Interface\AddOns\MobInfo2\MI2_Tooltip.lua:255: in function `MI2_TooltipMouseoverUnit'
+[string "*:OnEvent"]:1: in function <[string "*:OnEvent"]:1>
+
+Locals: mobData = <table> {
+ levelInfo = "[20] "
+ extraInfo = <table> {
+ }
+ mobType = 1
+ location = <table> {
+ }
+ manaMax = 0
+ manaCur = 0
+ healthCur = 494
+ classInfo = "????????????"
+ resists = <table> {
+ }
+ ttItems = <table> {
+ }
+ class = "????"
+ healthMax = 100
+ healthText = "494/100"
+}
+unit = "mouseover"
+opt = <table> {
+ data = "healthText"
+}
+value = "494/100"
+entry = MI2TT_Text1 {
+ 0 = <userdata>
+}
+itemText = nil
+numEntries = 1
+(for index) = 1
+(for limit) = 20
+(for step) = 1
+idx = 1
+(*temporary) = nil
+(*temporary) = nil
+(*temporary) = nil
+(*temporary) = <userdata>
+(*temporary) = "mouseover"
+(*temporary) = "attempt to index field 'val' (a nil value)"
+MI2_MaxNumLines = 20
+MI2_TooltipOptions = <table> {
+ 1 = <table> {
+ }
+ 2 = <table> {
+ }
+ 3 = <table> {
+ }
+ 4 = <table> {
+ }
+ 5 = <table> {
+ }
+ 6 = <table> {
+ }
+ 7 = <table> {
+ }
+ 8 = <table> {
+ }
+ 9 = <table> {
+ }
+ 10 = <table> {
+ }
+ 11 = <table> {
+ }
+ 12 = <table> {
+ }
+}
+MI2_EntryToString = <function> defined @Interface\AddOns\MobInfo2\MI2_Tooltip.lua:266
+MI2_MaxNumItems = 20

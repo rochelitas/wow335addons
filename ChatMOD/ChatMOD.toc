@@ -1,0 +1,33 @@
+## Interface: 30300
+## Title: ChatMOD|cffCBFF00135  |cff83D8DDfanUpdate
+## Author: Marco 'solariz' Goetze
+## Version: 135
+## Notes: lightweight general purpose chat enhancement collection by http://solariz.de
+## eMail: http://solariz.de
+## URL: http://solariz.de/gaming/wow-chatmod.htm
+## OptionalDeps: chronos, timex
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## X-Category: Chat
+## X-Website: http://solariz.de
+## SavedVariables: SCCN_mousescroll,SCCN_hidechanname,SCCN_colornicks,SCCN_topeditbox,SCCN_timestamp,SCCN_hyperlinker,SCCN_selfhighlight,SCCN_clickinvite,SCCN_editboxkeys,SCCN_chatstring,SCCN_selfhighlightmsg,SCCN_ts_format,SCCN_HideChatButtons,SCCN_Highlight_Text,SCCN_Highlight,SCCN_shortchanname,SCCN_AutoDismount,SCCN_AutoGossipSkip,SCCN_Chan_Replace,SCCN_Chan_ReplaceWith,SCCN_chatsound,SCCN_InChatHighlight,SCCN_AllSticky,SCCN_NOFADE,SCCN_disablewhocheck,SCCN_chatscrollicon,SCCN_SCROLLBACK_BUFFER,SCCN_displayusage,SCCN_CHATCOLORNAME,SCCN_SHOWLEVEL,SCCN_COM_GUILD,SCCN_SHOWICON
+## SavedVariablesPerCharacter: SCCN_storage,SCCNScrollDown_Y,SCCNScrollDown_X
+inc\revision.lua
+localization\all.lua
+localization\default.lua
+localization\deDE.lua
+localization\frFR.lua
+localization\zhCN.lua
+localization\zhTW.lua
+localization\koKR.lua
+inc\init_defaults.lua
+inc\com.lua
+inc\ChatMOD.lua
+xml\solColorChatNicksForm.xml
+xml\solColorChatNicks_scroller.xml
+xml\solHyperlinker.xml
+xml\Config_Form.xml
+xml\Highlight_Form.xml
+xml\ShortChan_Form.xml
+xml\ChatSound_Form.xml
+xml\ScrollDown.xml

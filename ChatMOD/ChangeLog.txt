@@ -1,0 +1,744 @@
+------------------------------------------------------------------------
+r135 | aizotu | 2009-10-21 00:00:00 +0000 (N/A) | N/A
+
+* fixed bug introduced when i incorrectly used ChatMod_debug(...).
+* fixed localization issues with Guild Roster updates and Raid Roster updates.  All languages should not properly acquire a class name usable by this addon for these rosters.
+* raid performance tweak.  ChatMod won't actually process any more if the raid roster doesn't increase or decrease in the number of people available in the raid. 
+
+------------------------------------------------------------------------
+r134 | aizotu | 2009-10-20 00:00:00 +0000 (N/A) | N/A
+
+* no longer show debugging messages with class to enum introduced by Aizotu
+* fix to no longer show class name color when option selected from config
+* fix to class name color required several changes to when color was applied due to it's tie in with show level
+* TOC WoW version update
+* several changes with insert methods in order to enable more opportunities for a level to be available.
+
+
+------------------------------------------------------------------------
+r133 | solariz | 2009-04-25 12:51:36 +0200 (Sa, 25. Apr 2009) | 13 Zeilen
+
+* update locale zhCN
+* chinese wow client chatmod fix
+* Aizotu fix, ClassToNum
+* updated to current Wow Version
+* main files now UTF-8
+* Mod. custom highlighter UI added button for “only full word”
+* Custom Highlighter improved
+* general code cleanup and prep. for further patches
+* removed autodismount because client can do this without a mod now
+* Removed Item Linking features, why ? type /chatmod chatlink
+* Hide Channel Names fixed
+* Short Channel names fixed
+* several debug changes
+------------------------------------------------------------------------
+r132 | solariz | 2009-04-18 11:11:52 +0200 (Sa, 18. Apr 2009) | 1 Zeile
+
+init for update
+------------------------------------------------------------------------
+r131 | solariz | 2008-10-19 08:30:46 +0200 (So, 19. Okt 2008) | 3 Zeilen
+
++ Fixed a bug where combat and skill msg passed
+through the highlighter causing onscreen alerts like 
+|cffffff30>Solariz< [Aspect of the Hawk] fades from |cffffff30>Solariz<
+------------------------------------------------------------------------
+r130 | solariz | 2008-10-18 22:36:52 +0200 (Sa, 18. Okt 2008) | 2 Zeilen
+
++ fix for /chatmod debug *grmpf* displaying now correct
++ excluded says and shouts from short channelname function
+------------------------------------------------------------------------
+r129 | solariz | 2008-10-18 22:11:56 +0200 (Sa, 18. Okt 2008) | 2 Zeilen
+
+Debug frame shouldn't show up by default, fixed.
+
+------------------------------------------------------------------------
+r128 | solariz | 2008-10-18 19:46:06 +0200 (Sa, 18. Okt 2008) | 14 Zeilen
+
+Some bigger rewrites & Changes to make the v3.x compatibility better. Some in 127 not proper functional things should be fixed now. Also I added a more detailed debug output, so if anybody of you have a error you could check what is running in background of chatmod by typing:  /chatmod debug
+
+Short summary:
++ New Debug /chatmod debug
++ Chatsound should work again
++ Hide and Short Channelnames should work
++ resigned CMwF worker Frame using existing
++ several compatibility fixes
+
+Still this version is not 100% tested, so if you notice any glitch please be sure that it is really Chatmod causing this. If so, feel free to have a look at my webpage:
+
+  www.solariz.de
+
+btw. Thanks fly out to 'brykrys' for some usefull tips in my forum.  
+------------------------------------------------------------------------
+r127 | solariz | 2008-10-15 23:20:22 +0200 (Mi, 15. Okt 2008) | 1 Zeile
+
+v3 fix part2
+------------------------------------------------------------------------
+r126 | solariz | 2008-10-15 23:19:58 +0200 (Mi, 15. Okt 2008) | 2 Zeilen
+
+update for wow v3.
+Still only tested the basic functions so if anything still seems broken please write a ticket or use the comments. Please post exact diz what is wrong and the error.
+------------------------------------------------------------------------
+r125 | solariz | 2008-09-12 15:52:37 +0200 (Fr, 12. Sep 2008) | 1 Zeile
+
+fix for 1469 Error
+------------------------------------------------------------------------
+r124 | solariz | 2008-09-04 19:47:37 +0200 (Do, 04. Sep 2008) | 2 Zeilen
+
+- Added new Command and UI button
+/chatmod icon
+------------------------------------------------------------------------
+r123 | solariz | 2008-09-04 19:01:55 +0200 (Do, 04. Sep 2008) | 4 Zeilen
+
+- Language Update 
+- Fixed localization zhCN thanks to adamhj
+(http://www.solariz.de/forum?func=view&catid=3&id=550#550)
+
+------------------------------------------------------------------------
+r122 | solariz | 2008-09-03 23:32:23 +0200 (Mi, 03. Sep 2008) | 5 Zeilen
+
+- GM whisper Fix
+- Fix for Guild Mate Icons
+- debug stuff
+- Problems on Lichking Beta Servers ;(
+
+------------------------------------------------------------------------
+r121 | solariz | 2008-09-03 22:28:40 +0200 (Mi, 03. Sep 2008) | 1 Zeile
+
+- Icon Feature added. Enter "/chatmod ico" to get a overview of available icons
+------------------------------------------------------------------------
+r120 | solariz | 2008-09-01 20:42:48 +0200 (Mo, 01. Sep 2008) | 3 Zeilen
+
+- Fixed several translations for female classnames
+- Added Deathknight not testen, no beta account
+
+------------------------------------------------------------------------
+r119 | solariz | 2008-08-31 22:10:19 +0200 (So, 31. Aug 2008) | 5 Zeilen
+
+- Added Female Class names for German client. PLEASE anybody using a enGB or enUS Version tell me the classnames in the EN Clients. See default.lua in localization folder. 
+
+- changed transparency of configuration dialogue to alpha 1
+
+
+------------------------------------------------------------------------
+r118 | solariz | 2008-03-29 14:26:30 +0100 (Sa, 29. Mrz 2008) | 1 Zeile
+
+118
+------------------------------------------------------------------------
+r117 | solariz | 2008-03-29 14:11:32 +0100 (Sa, 29. Mrz 2008) | 1 Zeile
+
+117
+------------------------------------------------------------------------
+r116 | solariz | 2007-11-15 19:02:52 +0100 (Do, 15. Nov 2007) | 3 Zeilen
+
+- sound fix;
+- wow version 2.3 comp
+
+------------------------------------------------------------------------
+r115 | solariz | 2007-10-16 23:41:19 +0200 (Di, 16. Okt 2007) | 1 Zeile
+
+work on the Soundbug again beta for testes because I don't have MAC where I could test the crash.
+------------------------------------------------------------------------
+r114 | solariz | 2007-10-15 20:05:59 +0200 (Mo, 15. Okt 2007) | 3 Zeilen
+
+New French localization.
+Posted by: devfool, October 15, 2007
+
+------------------------------------------------------------------------
+r113 | solariz | 2007-10-13 21:30:49 +0200 (Sa, 13. Okt 2007) | 1 Zeile
+
+Happy Birthday Edition :p
+------------------------------------------------------------------------
+r112 | solariz | 2007-10-13 21:16:34 +0200 (Sa, 13. Okt 2007) | 1 Zeile
+
+Checkout for Cursegaming upload ver. 112
+------------------------------------------------------------------------
+r111 | solariz | 2007-10-13 21:04:00 +0200 (Sa, 13. Okt 2007) | 10 Zeilen
+
+* Added new GetAddOnMemoryUsage() function to control memory usage of chatmod
+* fixed /seen command if playername is unkown
+* Added option to turn timestamping off by /chatmod timestamp off
+* Fixed Timestamp function
+* Added Timestamp option to GUI just type /chatmod
+* Changed mechanism to read class color to make it save for future patches
+* Fixed the "Sound not playing" Bug. more a work around
+* Rebuild the config menue removed much uneccesary trash
+* Removed some old unused stuff from the code
+* Removed storage of Zoneinfo, caused alot of mem waste for minor function
+------------------------------------------------------------------------
+r110 | solariz | 2007-10-13 17:46:09 +0200 (Sa, 13. Okt 2007) | 4 Zeilen
+
+* General code tidy up to improve memory usage
+* Welcome screen removed
+* IG Changelog screen removed
+* removed SCCN_AutoBGMap & Colormap unused variables
+------------------------------------------------------------------------
+r109 | solariz | 2007-05-28 14:15:58 +0200 (Mo, 28. Mai 2007) | 1 Zeile
+
+space fix
+------------------------------------------------------------------------
+r108 | solariz | 2007-05-28 14:09:53 +0200 (Mo, 28. Mai 2007) | 1 Zeile
+
+Fix for Asian Language + Fix fpr shamy color
+------------------------------------------------------------------------
+r107 | solariz | 2007-05-23 16:08:56 +0200 (Mi, 23. Mai 2007) | 1 Zeile
+
+Fix+Update
+------------------------------------------------------------------------
+r106 | solariz | 2007-05-05 15:14:24 +0200 (Sa, 05. Mai 2007) | 1 Zeile
+
+Read the README.html
+------------------------------------------------------------------------
+r105 | solariz | 2007-05-05 15:10:10 +0200 (Sa, 05. Mai 2007) | 1 Zeile
+
+Added small own information upd readme
+------------------------------------------------------------------------
+r104 | solariz | 2007-05-05 15:01:52 +0200 (Sa, 05. Mai 2007) | 1 Zeile
+
+fix
+------------------------------------------------------------------------
+r103 | solariz | 2007-03-24 11:03:32 +0100 (Sa, 24. Mrz 2007) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r102 | solariz | 2007-03-24 11:03:20 +0100 (Sa, 24. Mrz 2007) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r101 | solariz | 2007-01-11 22:25:39 +0100 (Do, 11. Jan 2007) | 1 Zeile
+
+removed fix 'honor display bug' because bliz fixed since last patch
+------------------------------------------------------------------------
+r100 | solariz | 2007-01-11 22:07:14 +0100 (Do, 11. Jan 2007) | 2 Zeilen
+
+- Level display setting will now saved correctly
+- unkown names are now NOT colored anymore
+------------------------------------------------------------------------
+r99 | solariz | 2007-01-10 12:07:04 +0100 (Mi, 10. Jan 2007) | 1 Zeile
+
+update for Interface 20003
+------------------------------------------------------------------------
+r98 | solariz | 2007-01-09 22:37:29 +0100 (Di, 09. Jan 2007) | 1 Zeile
+
+rewrite of in text Chattext coloring
+------------------------------------------------------------------------
+r97 | solariz | 2007-01-09 20:18:32 +0100 (Di, 09. Jan 2007) | 1 Zeile
+
+Added some ignore words
+------------------------------------------------------------------------
+r96 | solariz | 2007-01-08 20:11:03 +0100 (Mo, 08. Jan 2007) | 3 Zeilen
+
+- fixed missing text bug in config UI
+- Added option to toggle levle in names to config UI
+
+------------------------------------------------------------------------
+r95 | solariz | 2007-01-07 19:31:10 +0100 (So, 07. Jan 2007) | 2 Zeilen
+
+- New Feature to display the level of known talkers behind the name. e.g.:   "[Skyhawk:60] Bla bla bla"
+
+------------------------------------------------------------------------
+r94 | solariz | 2007-01-07 15:15:01 +0100 (So, 07. Jan 2007) | 1 Zeile
+
+- fix for chatsound on empty whisper events reported by 'awmax99' Ehisper messages must now have a lenght of 3+ charackters to trigger soundevent and auther must not be empty
+------------------------------------------------------------------------
+r93 | solariz | 2007-01-07 15:10:39 +0100 (So, 07. Jan 2007) | 2 Zeilen
+
+- removed ChatFrameEditBox:SetAlpha this was just for testing and I forget to remove it after test ;p
+
+------------------------------------------------------------------------
+r92 | solariz | 2007-01-07 15:08:45 +0100 (So, 07. Jan 2007) | 2 Zeilen
+
+- User requested feature to disable chatlink support completely by typing /chatmod chatlink
+- Updated README.html
+------------------------------------------------------------------------
+r91 | solariz | 2007-01-07 14:58:10 +0100 (So, 07. Jan 2007) | 2 Zeilen
+
+- fix for line 143 nil error reported by Alari
+- set real antispam time for COM channel 60s was for testing purpose, is now 600 sec.
+------------------------------------------------------------------------
+r90 | solariz | 2007-01-06 14:23:20 +0100 (Sa, 06. Jan 2007) | 5 Zeilen
+
+New Feature included:
+Command: /seen <playername>
+Display last seen information about a player.
+-----------
+Aded Smart Guild com for targeted players to update seen information within guild. Toggleable with "/chatmod comguild"
+------------------------------------------------------------------------
+r89 | solariz | 2007-01-03 12:37:12 +0100 (Mi, 03. Jan 2007) | 4 Zeilen
+
+added new command: 
+/chatmod chatlines <no of chatlines>
+to set the scrollback buffer. (chatlines history)
+Values 50 - 5000
+------------------------------------------------------------------------
+r88 | solariz | 2007-01-03 12:06:14 +0100 (Mi, 03. Jan 2007) | 3 Zeilen
+
+- removed "Color map pin" function
+- removed "Auto toggle BG Map" Function
+
+------------------------------------------------------------------------
+r87 | solariz | 2007-01-02 21:45:05 +0100 (Di, 02. Jan 2007) | 2 Zeilen
+
+let's say I hate it ;) 
+Crash fix
+------------------------------------------------------------------------
+r86 | solariz | 2007-01-02 21:15:53 +0100 (Di, 02. Jan 2007) | 1 Zeile
+
+Again some Updates regarding the chatLink stuff
+------------------------------------------------------------------------
+r85 | solariz | 2007-01-02 16:54:45 +0100 (Di, 02. Jan 2007) | 1 Zeile
+
+curse checkout of revision 84
+------------------------------------------------------------------------
+r84 | solariz | 2007-01-02 16:54:10 +0100 (Di, 02. Jan 2007) | 1 Zeile
+
+- ChatLink compatibility
+------------------------------------------------------------------------
+r83 | solariz | 2006-12-31 00:00:50 +0100 (So, 31. Dez 2006) | 1 Zeile
+
+fix
+------------------------------------------------------------------------
+r82 | solariz | 2006-12-30 17:49:33 +0100 (Sa, 30. Dez 2006) | 1 Zeile
+
+- Alpha for editbox removed again
+------------------------------------------------------------------------
+r81 | solariz | 2006-12-30 17:02:25 +0100 (Sa, 30. Dez 2006) | 1 Zeile
+
+chatmod ping for extended com tests
+------------------------------------------------------------------------
+r80 | solariz | 2006-12-30 16:40:06 +0100 (Sa, 30. Dez 2006) | 1 Zeile
+
+- new Feature: Keybindings to make a ChatFrame active. See in <ESC><Keybindings> in the Chatmod section.
+------------------------------------------------------------------------
+r79 | solariz | 2006-12-29 13:33:56 +0100 (Fr, 29. Dez 2006) | 3 Zeilen
+
+- ChatMOD COM Functions
+- Several language updates
+- minor fixes
+------------------------------------------------------------------------
+r78 | solariz | 2006-12-28 15:59:10 +0100 (Do, 28. Dez 2006) | 1 Zeile
+
+- Fix the PvP Honor Display bug (~...)
+------------------------------------------------------------------------
+r77 | solariz | 2006-12-28 15:18:15 +0100 (Do, 28. Dez 2006) | 1 Zeile
+
+- SCCN_chatscrollicon added to savevariables Chat scroll icons wasn't saved
+------------------------------------------------------------------------
+r76 | solariz | 2006-12-28 09:45:32 +0100 (Do, 28. Dez 2006) | 3 Zeilen
+
+- Chatsound event debug output added (/chatmod debug)
+- Make chat scoll notify icon toggleable
+- GUI option for chat icon toggeling
+------------------------------------------------------------------------
+r75 | solariz | 2006-12-28 01:09:17 +0100 (Do, 28. Dez 2006) | 3 Zeilen
+
+- 3rd party mod function renamed
+SCCN_ForgottenChatNickName -=> SCCN_ColorNickName
+- backwards compatibility for this change
+------------------------------------------------------------------------
+r74 | solariz | 2006-12-27 16:22:32 +0100 (Mi, 27. Dez 2006) | 5 Zeilen
+
+- Editbox Alpha set to 0.8
+- Default chatframe selector fixed
+- Hotkey for BG Talk /bg checks if in raid
+
+
+------------------------------------------------------------------------
+r73 | solariz | 2006-12-23 12:04:20 +0100 (Sa, 23. Dez 2006) | 3 Zeilen
+
+- Chatlink rewritten (need test)
+- You are now again able to post items in every chat 
+- General chat should be selected as default only once you login or if you reload your interface
+------------------------------------------------------------------------
+r72 | solariz | 2006-12-23 10:07:39 +0100 (Sa, 23. Dez 2006) | 1 Zeile
+
+Added GUI option to toggle Autobg Minimap
+------------------------------------------------------------------------
+r71 | solariz | 2006-12-21 21:27:25 +0100 (Do, 21. Dez 2006) | 1 Zeile
+
+COLOR bugfix, thanks for Hoyel for testing ;)
+------------------------------------------------------------------------
+r70 | solariz | 2006-12-21 20:42:45 +0100 (Do, 21. Dez 2006) | 2 Zeilen
+
+fix for German & Chinese Client's  
+Chinese localization was mapped to german clients.
+------------------------------------------------------------------------
+r69 | solariz | 2006-12-21 12:20:16 +0100 (Do, 21. Dez 2006) | 2 Zeilen
+
+color change
+
+------------------------------------------------------------------------
+r68 | solariz | 2006-12-20 22:19:04 +0100 (Mi, 20. Dez 2006) | 7 Zeilen
+
+Final changes for 2.0 version. 
+Versioning system are now changed to Revision numbers out of SVN. Time to time I will post stable snapshots on Cure and WorldOfWar
+
+I will reset the bugtracker tomorrow to cleanup for real new reports because many things have changed.
+http://www.solariz.de/bugs
+
+Again and again: Check out README.html ;)
+------------------------------------------------------------------------
+r67 | solariz | 2006-12-20 10:19:51 +0100 (Mi, 20. Dez 2006) | 1 Zeile
+
+Added some information to the README.html
+------------------------------------------------------------------------
+r66 | solariz | 2006-12-19 08:57:05 +0100 (Di, 19. Dez 2006) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r65 | solariz | 2006-12-18 23:21:23 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+moved ChatMOD.lua to inc/ChatMOD.lua
+------------------------------------------------------------------------
+r64 | solariz | 2006-12-18 23:19:32 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+InviteUnit fix  [invite]
+------------------------------------------------------------------------
+r63 | solariz | 2006-12-18 22:41:50 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r62 | solariz | 2006-12-18 20:56:39 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+Fixed Shaman Color to TBC
+------------------------------------------------------------------------
+r61 | solariz | 2006-12-18 15:37:48 +0100 (Mo, 18. Dez 2006) | 2 Zeilen
+
+ChatMOD 2.0 Alpha
+- Added default channel selection fix
+------------------------------------------------------------------------
+r60 | solariz | 2006-12-18 15:34:53 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+preparation for 2.0 structure
+------------------------------------------------------------------------
+r59 | solariz | 2006-12-18 11:25:53 +0100 (Mo, 18. Dez 2006) | 1 Zeile
+
+news README.html no real fixes
+------------------------------------------------------------------------
+r58 | solariz | 2006-12-17 19:22:56 +0100 (So, 17. Dez 2006) | 1 Zeile
+
+Current 2.0.1 compatible version
+------------------------------------------------------------------------
+r57 | solariz | 2006-09-06 10:56:36 +0200 (Mi, 06. Sep 2006) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r56 | solariz | 2006-08-31 07:07:08 +0200 (Do, 31. Aug 2006) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r55 | solariz | 2006-08-29 21:27:10 +0200 (Di, 29. Aug 2006) | 1 Zeile
+
+toc version updated
+------------------------------------------------------------------------
+r54 | solariz | 2006-08-29 21:23:06 +0200 (Di, 29. Aug 2006) | 3 Zeilen
+
+fix for save bug...
+currently still not at home. Will be back mid of next week.
+
+------------------------------------------------------------------------
+r53 | solariz | 2006-08-19 09:38:52 +0200 (Sa, 19. Aug 2006) | 4 Zeilen
+
+1.5  RC2
+------------
+# New Command (Bug #60) - /chatmod disablewho disables the who check to prevent the popping up who box on some clients
+# Fixed bug #102 - Gossip Window handling
+------------------------------------------------------------------------
+r52 | solariz | 2006-08-06 17:34:09 +0200 (So, 06. Aug 2006) | 1 Zeile
+
+RC 1
+------------------------------------------------------------------------
+r51 | solariz | 2006-08-05 20:44:20 +0200 (Sa, 05. Aug 2006) | 1 Zeile
+
+worked on inchat highlight 
+------------------------------------------------------------------------
+r50 | solariz | 2006-08-05 00:45:09 +0200 (Sa, 05. Aug 2006) | 1 Zeile
+
+fixed bug #88
+------------------------------------------------------------------------
+r49 | solariz | 2006-07-29 11:18:12 +0200 (Sa, 29. Jul 2006) | 1 Zeile
+
+added some lines to the README.html
+------------------------------------------------------------------------
+r48 | solariz | 2006-07-29 11:07:37 +0200 (Sa, 29. Jul 2006) | 8 Zeilen
+
+1.05 beta 4
+Changes:
+# Fixed bug #77 - The Chatframe scroll down button is now individual placeable by draging the button where you want. Just hold down <CTRL> and drag it.
+# Fixed bug #73 - Updated Korean Language
+# Fixed bug #80 - Inchat highlighter shouldn't highlight names in items [xyz abc] any more
+# Fixed bug #85 - Gossip window of MC and BWL stays open after entering instance
+# Fixed bug #76 - Initchan should work now as it actually should
+# Fixed bug #56 - The general gossip bugs which prevent from talking to some NPCs should be fixed
+------------------------------------------------------------------------
+r47 | solariz | 2006-07-25 20:45:01 +0200 (Di, 25. Jul 2006) | 1 Zeile
+
+korean Language file by NEXT96
+------------------------------------------------------------------------
+r46 | solariz | 2006-07-24 21:17:21 +0200 (Mo, 24. Jul 2006) | 1 Zeile
+
+font fix, GameFontNormalSmall
+------------------------------------------------------------------------
+r45 | solariz | 2006-07-24 21:08:46 +0200 (Mo, 24. Jul 2006) | 7 Zeilen
+
+# Fixed bug #74 - Only process CHAT_MSG
+# Fixed bug #73 - /chatmod initchan cutoff first letter
+# General Tidyup in function S_AddMessage
+# Feature Req. #59 - Abilty to use custom sounds (mp3) in Chatsound, just move them in the audio dir and replace the existing 1-5
+# Fixed bug #75 - Sticky is now toggle able in GUI (/chatmod nofade)
+# Fixed bug #60 - /who windows keeps opening
+# removed Sync testing code
+------------------------------------------------------------------------
+r44 | solariz | 2006-07-22 13:07:48 +0200 (Sa, 22. Jul 2006) | 1 Zeile
+
+1.05beta2
+------------------------------------------------------------------------
+r43 | solariz | 2006-07-22 11:47:31 +0200 (Sa, 22. Jul 2006) | 1 Zeile
+
+CECB fix
+------------------------------------------------------------------------
+r42 | solariz | 2006-07-22 11:38:14 +0200 (Sa, 22. Jul 2006) | 1 Zeile
+
+Feature Req. #28 - Added Scroll down button
+------------------------------------------------------------------------
+r41 | solariz | 2006-07-22 10:42:07 +0200 (Sa, 22. Jul 2006) | 5 Zeilen
+
+# Feature Req. #64 - Ability to define the default chatframe on startup. Type /chatmod initchan General to set General as initial chattab.
+# Fixed bug #65 - Gossip Talk to NPC's fix
+# Fixed 1,05 beta 1 sync bug where General is on 2 instead of 1
+# Fixed bug #63 - Bliz. default sitcky behavior 
+# Fixed bug #61 - highlight bug
+------------------------------------------------------------------------
+r40 | solariz | 2006-07-22 01:07:30 +0200 (Sa, 22. Jul 2006) | 1 Zeile
+
+readme update
+------------------------------------------------------------------------
+r39 | solariz | 2006-07-22 01:03:24 +0200 (Sa, 22. Jul 2006) | 1 Zeile
+
+some code tests included
+------------------------------------------------------------------------
+r38 | solariz | 2006-07-21 18:49:37 +0200 (Fr, 21. Jul 2006) | 2 Zeilen
+
+- Fixed Bug #46
+- Fixed Bug #57
+------------------------------------------------------------------------
+r37 | solariz | 2006-07-21 18:29:50 +0200 (Fr, 21. Jul 2006) | 4 Zeilen
+
+- Fixed bug #53
+- Fixed bug #58
+- Fixed bug #48
+- Fixed bug #54
+------------------------------------------------------------------------
+r36 | solariz | 2006-07-20 00:08:53 +0200 (Do, 20. Jul 2006) | 5 Zeilen
+
+# My Guild on EU-Aegwynn, United have defeated the Twin Emperors :D
+# Class colors updated again; Priest=brighter, Druid=more orange, Pala=better Pink (who gave the pala this color *cough*)
+# Fix for Bug #32 "Double lines in center of screen"
+# Request #31 included, Gossip skip more fluently
+# Gossip skip now includes Vendors
+------------------------------------------------------------------------
+r35 | solariz | 2006-07-17 23:32:20 +0200 (Mo, 17. Jul 2006) | 2 Zeilen
+
+Fixed [invite] Bug #36
+Invites not clickable anymore if from person in raid or from self
+------------------------------------------------------------------------
+r34 | solariz | 2006-07-17 21:52:38 +0200 (Mo, 17. Jul 2006) | 3 Zeilen
+
+- README.txt replaced by README.html
+- Fixed Bug #33
+
+------------------------------------------------------------------------
+r33 | solariz | 2006-07-16 14:59:24 +0200 (So, 16. Jul 2006) | 6 Zeilen
+
+[1.04beta]
+- SCCN_InChatHighlight added this will highlight known names in chatmessages and make them clickable  "/chatmod inchathighlight"
+- SCCN_AllSticky added to toggle Sticky mode
+- Storage method of playernames changed to lowercase, first preperal for unicode names
+- Updated the colortable, class colors should be brighter now
+
+------------------------------------------------------------------------
+r32 | solariz | 2006-07-15 23:37:39 +0200 (Sa, 15. Jul 2006) | 1 Zeile
+
+1.03 release, hopfully fixed the CTRA thing for ever ^^
+------------------------------------------------------------------------
+r31 | solariz | 2006-07-15 11:42:44 +0200 (Sa, 15. Jul 2006) | 1 Zeile
+
+- hopefully fixed Line error 320 bug #24
+------------------------------------------------------------------------
+r30 | solariz | 2006-07-15 10:59:54 +0200 (Sa, 15. Jul 2006) | 6 Zeilen
+
+1.03 Beta
+- Enable Chat Stickyness by Default for GUILD,PARTY,RAID,OFFICER,SAY,WHISPER
+- Updated who Hide channel names work. This should now also hide custom channel names to it's number
+  e.g.  [6. GuildsDruidChannel] will be [6] by clicking on [6] it will say 6 = GuildsDruidChannel
+- Fix bug #22 - GEM's output shouldnt be visible in chatframes anymore
+- Fix bug #19 - Should intefere with CTRA anymore
+------------------------------------------------------------------------
+r29 | solariz | 2006-07-14 22:37:59 +0200 (Fr, 14. Jul 2006) | 1 Zeile
+
+readme and smaller fixes
+------------------------------------------------------------------------
+r28 | solariz | 2006-07-14 22:26:03 +0200 (Fr, 14. Jul 2006) | 6 Zeilen
+
+- Fix bug #10 (Line 159 error)
+- Fix bug #11 (Chronos check)
+- Fix bug #4  (Officer Chat)
+- Fix bug #16 (Party chat hotkey)
+- Preperal for bug #15 added a advanced DKPTable restore functionality. This requires interaction of the DKPTable mod author *Corss your fingers and ask him* I send him the neccesary fix information by PM on Curse.
+- Added command /chatmod fix to reHook the functions
+------------------------------------------------------------------------
+r27 | solariz | 2006-07-13 18:10:18 +0200 (Do, 13. Jul 2006) | 2 Zeilen
+
+- Fixed compatibility to DKP_Table Addon. For this compatibility Feature it is required to also have Chronos or Timex installed.
+- Fix for Error in Line 654 
+------------------------------------------------------------------------
+r26 | solariz | 2006-07-10 23:36:38 +0200 (Mo, 10. Jul 2006) | 1 Zeile
+
+- changed menue call and added /chatmod help or /chatmod ? for help
+------------------------------------------------------------------------
+r25 | solariz | 2006-07-10 23:27:13 +0200 (Mo, 10. Jul 2006) | 12 Zeilen
+
+!!! ATTENTION !!!
+The Mod was renamed to ChatMOD so it is absolutely neccessary to rename the Addon directory from "solColorchatNicks" to "ChatMOD" else the addon won't work!
+
+If you want to keep your settings you have to rename also te lua file in you're WTF directory /Svavariables/  solcolorchatnicks.lua into ChatMOD.lua
+
+
+
+======== Changes ==========
+- Added indexing of targets
+- Added Wholist indexing
+- Chinese support improved
+- several small issues fixed
+------------------------------------------------------------------------
+r24 | solariz | 2006-07-10 23:26:44 +0200 (Mo, 10. Jul 2006) | 12 Zeilen
+
+!!! ATTENTION !!!
+The Mod was renamed to ChatMOD so it is absolutely neccessary to rename the Addon directory from "solColorchatNicks" to "ChatMOD" else the addon won't work!
+
+If you want to keep your settings you have to rename also te lua file in you're WTF directory /Svavariables/  solcolorchatnicks.lua into ChatMOD.lua
+
+
+
+======== Changes ==========
+- Added indexing of targets
+- Added Wholist indexing
+- Chinese support improved
+- several small issues fixed
+------------------------------------------------------------------------
+r23 | solariz | 2006-07-09 11:10:46 +0200 (So, 09. Jul 2006) | 5 Zeilen
+
+- removed OnEscapePressed event calls
+- updated Keybinding file
+- added new LookingForGroup naming
+- update chinese localization by q09q09
+- tidy up some old code parts
+------------------------------------------------------------------------
+r22 | solariz | 2006-07-08 12:38:36 +0200 (Sa, 08. Jul 2006) | 3 Zeilen
+
+=== Official 1.9 Release ===
+- Chatsounds added
+
+------------------------------------------------------------------------
+r21 | solariz | 2006-07-08 12:37:54 +0200 (Sa, 08. Jul 2006) | 2 Zeilen
+
+(official 1.9 release for curse Gaming)
+- chat sound feature added
+------------------------------------------------------------------------
+r20 | solariz | 2006-07-05 00:06:38 +0200 (Mi, 05. Jul 2006) | 2 Zeilen
+
+custom highlighter un case sensitive.
+Curse comment request by reaper.dk
+------------------------------------------------------------------------
+r19 | solariz | 2006-06-29 22:32:19 +0200 (Do, 29. Jun 2006) | 1 Zeile
+
+version 11100
+------------------------------------------------------------------------
+r18 | solariz | 2006-05-20 09:54:42 +0200 (Sa, 20. Mai 2006) | 1 Zeile
+
+changed behavior of chat keybindings
+------------------------------------------------------------------------
+r17 | solariz | 2006-05-20 09:05:32 +0200 (Sa, 20. Mai 2006) | 2 Zeilen
+
+Bug reported by "Knifed" fixed.
+Highlight on screen toggeling didn't work as inteded.
+------------------------------------------------------------------------
+r16 | solariz | 2006-05-15 20:15:02 +0200 (Mo, 15. Mai 2006) | 1 Zeile
+
+Fix for bug reported by Sloopy, thank's alot.
+------------------------------------------------------------------------
+r15 | solariz | 2006-05-14 18:53:37 +0200 (So, 14. Mai 2006) | 1 Zeile
+
+Bugfix for Line 369 error reported by 'Mahkra'
+------------------------------------------------------------------------
+r14 | solariz | 2006-05-13 11:25:35 +0200 (Sa, 13. Mai 2006) | 2 Zeilen
+
+- Starting of 1.9 development
+- fix for timestamp error on other OS than windows, mentioned by Nevarin on world of war
+------------------------------------------------------------------------
+r13 | solariz | 2006-05-13 11:06:35 +0200 (Sa, 13. Mai 2006) | 1 Zeile
+
+
+------------------------------------------------------------------------
+r12 | solariz | 2006-05-13 10:49:10 +0200 (Sa, 13. Mai 2006) | 1 Zeile
+
+hmm have to work a bit around on the updater there was a small bug.
+------------------------------------------------------------------------
+r11 | solariz | 2006-05-13 10:34:03 +0200 (Sa, 13. Mai 2006) | 3 Zeilen
+
+Official 1.8 to put on curse !
+
+Fix: shortchans over 5 are not stored corectly
+------------------------------------------------------------------------
+r10 | solariz | 2006-05-13 09:33:59 +0200 (Sa, 13. Mai 2006) | 2 Zeilen
+
+- short channames now displayed in default color
+- optimization in short chan process, stoping to search for sting if found once.
+------------------------------------------------------------------------
+r9 | solariz | 2006-05-11 22:54:33 +0200 (Do, 11. Mai 2006) | 2 Zeilen
+
+- Increased number of short channel function from 5 to 9
+- added /SCCN timestamp help
+------------------------------------------------------------------------
+r8 | solariz | 2006-05-10 09:12:45 +0200 (Mi, 10. Mai 2006) | 1 Zeile
+
+fixed the glitch reported by sloopy_de. Diz text of invite and <alt> was swapped.
+------------------------------------------------------------------------
+r7 | solariz | 2006-05-09 22:40:01 +0200 (Di, 09. Mai 2006) | 1 Zeile
+
+fix, "guild" channel was not recognized
+------------------------------------------------------------------------
+r6 | solariz | 2006-05-08 22:48:25 +0200 (Mo, 08. Mai 2006) | 1 Zeile
+
+updater preperal
+------------------------------------------------------------------------
+r5 | solariz | 2006-05-08 22:04:42 +0200 (Mo, 08. Mai 2006) | 1 Zeile
+
+The Config GUI for shortchannel Names
+------------------------------------------------------------------------
+r4 | solariz | 2006-05-08 22:02:21 +0200 (Mo, 08. Mai 2006) | 10 Zeilen
+
+- new: GUI to specify channel shortcuts (shortchannelname)
+
+
+I reworked the "ShortChannelName" Feature in 1.8 the function is now that you can specifiy A and B where Channelname A is replaced by specified weord B. You have 5 slots to fill in.
+
+For the default config I need the exact, case sensitive, channel names in the English, Chinese & French name for:
+
+"Allgemein" (General ?)
+"SucheNachGruppe" (LookingForGroup ?)
+"Gilde" (Guild ?)
+------------------------------------------------------------------------
+r3 | solariz | 2006-05-08 19:54:20 +0200 (Mo, 08. Mai 2006) | 1 Zeile
+
+Changelog
+------------------------------------------------------------------------
+r2 | solariz | 2006-05-08 19:52:02 +0200 (Mo, 08. Mai 2006) | 3 Zeilen
+
+- upd: Gossip Skip Msg removed
+- upd: removed Zoning Time display, if you need it use catalyst
+- upd: added KeyBindung for Chat /9 & /10
+------------------------------------------------------------------------
+r1 | solariz | 2006-05-08 18:03:15 +0200 (Mo, 08. Mai 2006) | 1 Zeile
+
+init of 1.8beta
+------------------------------------------------------------------------

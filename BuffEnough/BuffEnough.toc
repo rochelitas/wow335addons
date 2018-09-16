@@ -1,0 +1,54 @@
+## Interface: 30300
+## Title: BuffEnough
+## Notes: Personal buff monitor - are you buff enough?
+## Author: Nikkodemus
+## DefaultState: enabled
+## X-Category: Buffs
+## OptionalDeps: Ace3, LibGratuity-3.0, LibTalentQuery-1.0, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, 
+## X-Embeds: Ace3, LibGratuity-3.0, LibTalentQuery-1.0, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, 
+## SavedVariables: BuffEnoughDB
+## X-Curse-Packaged-Version: 1.1.14
+## X-Curse-Project-Name: BuffEnough
+## X-Curse-Project-ID: buff-enough
+## X-Curse-Repository-ID: wow/buff-enough/mainline
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceBucket-3.0\AceBucket-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\LibTalentQuery-1.0\lib.xml
+Libs\LibGratuity-3.0\lib.xml
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+#@end-no-lib-strip@
+
+LibDataBroker-1.1.lua
+Locales.xml
+
+BuffEnough.lua
+Spells.lua
+Config.lua
+
+ClassBase.lua
+Classes\DeathKnight.lua
+Classes\Druid.lua
+Classes\Hunter.lua
+Classes\Mage.lua
+Classes\Paladin.lua
+Classes\Priest.lua
+Classes\Rogue.lua
+Classes\Shaman.lua
+Classes\Warlock.lua
+Classes\Warrior.lua
+
+Frame.lua
+

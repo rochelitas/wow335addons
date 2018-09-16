@@ -1,0 +1,413 @@
+------------------------------------------------------------------------
+r96 | nevcairiel | 2010-02-08 16:03:25 +0000 (Mon, 08 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Pet.lua
+
+Always apply the "Hide Blizzard Cast Bar" option, even when our bar is disabled.
+------------------------------------------------------------------------
+r95 | nevcairiel | 2010-02-08 13:31:19 +0000 (Mon, 08 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+
+Show a warning on first login after upgrade from the old Ace2 version, reminding the user to re-configure Quartz.
+------------------------------------------------------------------------
+r94 | ananhaid | 2010-02-08 03:56:52 +0000 (Mon, 08 Feb 2010) | 2 lines
+Changed paths:
+   M /trunk/Quartz.toc
+
+Quartz:
+- zhCN toc desc update.
+------------------------------------------------------------------------
+r93 | nevcairiel | 2010-02-07 19:06:41 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Interrupt.lua
+
+Fix Interrupt Module
+------------------------------------------------------------------------
+r92 | nevcairiel | 2010-02-07 19:01:56 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/GCD.lua
+
+Check for valid values in the GCD OnUpdate
+------------------------------------------------------------------------
+r91 | nevcairiel | 2010-02-07 16:59:05 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Buff.lua
+
+Fonts are no textures, apparently, who would've thought!
+------------------------------------------------------------------------
+r90 | nevcairiel | 2010-02-07 16:42:24 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Pet.lua
+
+Fix config error in Pet module
+------------------------------------------------------------------------
+r89 | nevcairiel | 2010-02-07 15:22:23 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+
+Poke for a new zip and locale update
+------------------------------------------------------------------------
+r88 | nevcairiel | 2010-02-07 14:31:33 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Tradeskill.lua
+
+Another victory in the fight against string garbage!
+------------------------------------------------------------------------
+r87 | nevcairiel | 2010-02-07 14:24:33 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Latency.lua
+
+Fix text display in Latency module
+------------------------------------------------------------------------
+r86 | nevcairiel | 2010-02-07 13:01:39 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Config.lua
+
+Rename the slash command, too.
+------------------------------------------------------------------------
+r85 | nevcairiel | 2010-02-07 10:37:39 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/Flight.lua
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Interrupt.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Range.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Target.lua
+
+Make sure to always refresh db references, even if a module is disabled
+------------------------------------------------------------------------
+r84 | nevcairiel | 2010-02-07 10:07:09 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Target.lua
+
+Make sure to refresh the db upvalue reference when changing profile
+------------------------------------------------------------------------
+r83 | nevcairiel | 2010-02-07 10:01:30 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Player.lua
+
+Add volley to the channeling ticks spells
+------------------------------------------------------------------------
+r82 | nevcairiel | 2010-02-07 08:09:36 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Quartz.lua
+   A /trunk/Quartz.toc (from /trunk/Quartz3.toc:81)
+   D /trunk/Quartz3.toc
+
+Rename the folder back to Quartz
+------------------------------------------------------------------------
+r81 | nevcairiel | 2010-02-07 08:07:55 +0000 (Sun, 07 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+   M /trunk/Quartz3.toc
+
+Some more .toc and core cleanup
+------------------------------------------------------------------------
+r80 | nevcairiel | 2010-02-07 08:03:14 +0000 (Sun, 07 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Quartz.lua
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Buff.lua
+
+- Implement the Copy Settings From option
+- Fix disabling of Buff Module for Focus
+- Add AceHook to pkgmeta and .toc
+------------------------------------------------------------------------
+r79 | nevcairiel | 2010-02-06 23:16:10 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Target.lua
+
+More SetFormattedText love
+------------------------------------------------------------------------
+r78 | nevcairiel | 2010-02-06 22:57:26 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Target.lua
+
+Remove some code duplication
+------------------------------------------------------------------------
+r77 | nevcairiel | 2010-02-06 22:45:29 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Tradeskill.lua
+
+SetText(format(...)) -> SetFormattedText
+------------------------------------------------------------------------
+r76 | nevcairiel | 2010-02-06 22:40:28 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Swing.lua
+
+Some fixes and cleanup
+------------------------------------------------------------------------
+r75 | nevcairiel | 2010-02-06 22:14:04 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Config.lua
+
+Fix options thingy
+------------------------------------------------------------------------
+r74 | nevcairiel | 2010-02-06 21:56:55 +0000 (Sat, 06 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/Config.lua
+   M /trunk/modules/Flight.lua
+   M /trunk/modules/Interrupt.lua
+   M /trunk/modules/Range.lua
+   M /trunk/modules/Swing.lua
+
+- Swing: Properly handle Slam
+- Swing: Try to account for parry haste
+- Cosmetic fixes all over
+------------------------------------------------------------------------
+r73 | nevcairiel | 2010-02-06 21:19:40 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Player.lua
+
+Properly show casts of your vehicle in the main castbar
+------------------------------------------------------------------------
+r72 | nevcairiel | 2010-02-06 18:54:50 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Target.lua
+   A /trunk/textures/Tooltip-BigBorder.blp
+
+Ported a patch to change the border of the focus/target bars when the cast is not interruptable.
+------------------------------------------------------------------------
+r71 | nevcairiel | 2010-02-06 18:14:48 +0000 (Sat, 06 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/Player.lua
+
+Added 2 patches by Gaff3:
+- Fixed Width Buff Bars
+- Show Channeling Tics
+------------------------------------------------------------------------
+r70 | nevcairiel | 2010-02-06 17:44:57 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Target.lua
+
+Hide CastBars when changing target/focus while they are casting
+------------------------------------------------------------------------
+r69 | nevcairiel | 2010-02-06 17:25:51 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Target.lua
+
+Make the bars 1px wider so the border of the backdrop shows up properly
+------------------------------------------------------------------------
+r68 | nevcairiel | 2010-02-06 17:14:48 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/locale/Babelfish.lua
+
+Added babelfish script and imported new locale on WoWAce
+------------------------------------------------------------------------
+r67 | nevcairiel | 2010-02-06 16:20:41 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Range.lua
+
+Fix disabling of range module
+------------------------------------------------------------------------
+r66 | nevcairiel | 2010-02-06 16:17:07 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Target.lua
+
+Fix more options
+------------------------------------------------------------------------
+r65 | nevcairiel | 2010-02-06 16:06:22 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Flight.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Target.lua
+   M /trunk/modules/Timer.lua
+
+Fixed some more glitches and typos
+------------------------------------------------------------------------
+r64 | nevcairiel | 2010-02-06 15:58:08 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Flight.lua
+
+Fix some errors in Flight module
+------------------------------------------------------------------------
+r63 | nevcairiel | 2010-02-06 15:53:48 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Flight.lua
+
+Ported (ancient) Flight module, but completely untested since it depends on InFlight or FlightMap to provide data. Probably needs a bigger overhaul.
+------------------------------------------------------------------------
+r62 | nevcairiel | 2010-02-06 15:48:24 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Interrupt.lua
+   M /trunk/modules/Range.lua
+
+Fix Interrupt and Range modules
+------------------------------------------------------------------------
+r61 | nevcairiel | 2010-02-06 15:37:02 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Timer.lua
+   M /trunk/modules/Tradeskill.lua
+
+Fix the Swing Timer and some other config related breakages
+------------------------------------------------------------------------
+r60 | nevcairiel | 2010-02-06 15:15:53 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz.lua
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Timer.lua
+
+Fixed custom timer module and other stuff
+------------------------------------------------------------------------
+r59 | nevcairiel | 2010-02-06 14:54:45 +0000 (Sat, 06 Feb 2010) | 2 lines
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Buff.lua
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Swing.lua
+   M /trunk/modules/Tradeskill.lua
+
+- Ported the Mirror Bar module
+- Fixed minor things in other modules
+------------------------------------------------------------------------
+r58 | nevcairiel | 2010-02-06 13:04:04 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Buff.lua
+
+Port Buff module, not much tested.
+------------------------------------------------------------------------
+r57 | nevcairiel | 2010-02-06 12:03:54 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/GCD.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/modules/Tradeskill.lua
+
+GCD and Tradeskill modules and latency fixes
+------------------------------------------------------------------------
+r56 | nevcairiel | 2010-02-06 11:42:51 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Latency.lua
+
+Fix Latency module
+------------------------------------------------------------------------
+r55 | nevcairiel | 2010-02-06 11:22:50 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Config.lua
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Pet.lua
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Target.lua
+
+Ported Pet module and more fixes to the other already ported modules
+------------------------------------------------------------------------
+r54 | nevcairiel | 2010-02-06 09:56:32 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Target.lua
+
+Finish the port of the Focus module and fix some glitches in Target
+------------------------------------------------------------------------
+r53 | nevcairiel | 2010-02-06 09:31:12 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Player.lua
+   M /trunk/modules/Target.lua
+
+Ported the Target module to the new core and Ace3 options
+------------------------------------------------------------------------
+r52 | nevcairiel | 2010-02-06 09:04:22 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Config.lua
+   M /trunk/modules/Player.lua
+
+Fix some more options in Player and Core, should mostly work again.
+------------------------------------------------------------------------
+r51 | nevcairiel | 2010-02-06 09:01:03 +0000 (Sat, 06 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz3.toc
+   M /trunk/locale/deDE.lua
+   M /trunk/locale/enUS.lua
+   A /trunk/locale/esES.lua
+   A /trunk/locale/esMX.lua
+   M /trunk/locale/frFR.lua
+   M /trunk/locale/koKR.lua
+   A /trunk/locale/locale.xml
+   M /trunk/locale/ruRU.lua
+   M /trunk/locale/zhCN.lua
+   M /trunk/locale/zhTW.lua
+   D /trunk/locale.xml
+
+Move the locale into the WoWAce Locale App
+------------------------------------------------------------------------
+r50 | nevcairiel | 2010-02-05 23:32:24 +0000 (Fri, 05 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Config.lua
+   M /trunk/Quartz.lua
+   M /trunk/Quartz3.toc
+   M /trunk/modules/Player.lua
+   D /trunk/modules.xml
+
+- Finished the port of the core and color configuration to Ace3
+- Ported the Player module to the new core and (mostly) fixed configuration for Ace3
+- Disabled all other modules until they are fixed
+------------------------------------------------------------------------
+r49 | durcyn | 2009-06-03 17:18:05 +0000 (Wed, 03 Jun 2009) | 1 line
+Changed paths:
+   M /trunk/modules/Focus.lua
+   M /trunk/modules/Mirror.lua
+   M /trunk/modules/Swing.lua
+
+add a few missing locals for LSMWidgetList
+------------------------------------------------------------------------

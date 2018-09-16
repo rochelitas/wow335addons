@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: LootCount |r|cFF9900FFProfession level|r
+## Notes: LootCount profession-level watch
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Author: Evil Duck
+## SavedVariables: LCPR_SkillName
+## SavedVariablesPerCharacter: LCPR_PlayerSkill
+## Dependencies: LootCount
+##
+
+LootCount_PROF.xml

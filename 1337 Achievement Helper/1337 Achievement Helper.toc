@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: 1337 Achievement Helper
+## Author: Timmy2250
+## Version: 1.0.2
+## URL: http://wow.curseforge.com/addons/achievement-helper/
+## DefaultState: Enabled
+## LoadOnDemand: 0
+1337 Achievement Helper.lua

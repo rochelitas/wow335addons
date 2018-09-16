@@ -1,0 +1,47 @@
+## Interface: 30300
+## X-Curse-Packaged-Version: 1.6.10B
+## X-Curse-Project-Name: BuffBroker
+## X-Curse-Project-ID: buffbroker
+## X-Curse-Repository-ID: wow/buffbroker/mainline
+
+## Title: BuffBroker
+## Author:  Neaves - Deathwing
+## Translators: ckaotik (German), StingerSoft (Russian)
+## Email: Toddimer at hotmail dot com
+## Version: 1.6.10B
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: BuffBrokerDB
+
+## Notes: Profiles party/raid members, and suggests the most appropriate buffs you can cast.  Like a tiny smart player that thinks for you!
+
+## OptionalDeps: Ace3, ButtonFacade
+## X-Embeds: Ace3
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always:delayed
+
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler\CallbackHandler-1.0.lua
+
+embeds.xml
+Externals\Ace3\AceConfig-3.0\AceConfig-3.0.xml
+Externals\Ace3\AceLocale-3.0\AceLocale-3.0.xml
+Externals\Ace3\AceConsole-3.0\AceConsole-3.0.xml
+Externals\Ace3\AceDB-3.0\AceDB-3.0.xml
+
+# Locales
+Locales\deDE.lua
+Locales\enUS.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\koKR.lua
+Locales\ruRU.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+BuffBroker.lua
+BuffBroker-Tests.lua
+

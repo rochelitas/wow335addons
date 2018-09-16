@@ -1,0 +1,90 @@
+------------------------------------------------------------------------
+r241 | arkayenro | 2010-07-08 13:50:37 +0000 (Thu, 08 Jul 2010) | 10 lines
+Changed paths:
+   A /tags/3.02.47 BETA 23-15 (from /trunk:240)
+
+*3.02.47 (08-JUL-2010) BETA 23-15*
+ * changed - ldb currency object will now allow you to monitor an unlimited number of currencies (not linked to the 3 blizzard tracking choices)
+ * changed - internal mount data to handle water mounts and better handle combination land/air mounts
+ * changed - rules broken out into seperate addon (you can disable this addon to save some memory if you do not use rules at all) so custom rule fucntions can be created if required
+ * added - X-53 Touring Rocket (flying mount)
+ * added - slash commands /ai edit | rules | search - toggles their respective states/windows
+ * fixed - flying mounts being selected via LDB in wintergrasp when a battle has started (non english clients)
+ * fixed - border style offset values will now save properly
+ * fixed - several locale updates
+
+------------------------------------------------------------------------
+r240 | arkayenro | 2010-07-08 13:45:36 +0000 (Thu, 08 Jul 2010) | 10 lines
+Changed paths:
+   M /trunk/ArkInventory.lua
+   M /trunk/VersionHistory.txt
+   D /trunk/wiki.txt
+
+*3.02.47 (08-JUL-2010) BETA 23-15*
+ * changed - ldb currency object will now allow you to monitor an unlimited number of currencies (not linked to the 3 blizzard tracking choices)
+ * changed - internal mount data to handle water mounts and better handle combination land/air mounts
+ * changed - rules broken out into seperate addon (you can disable this addon to save some memory if you do not use rules at all) so custom rule fucntions can be created if required
+ * added - X-53 Touring Rocket (flying mount)
+ * added - slash commands /ai edit | rules | search - toggles their respective states/windows
+ * fixed - flying mounts being selected via LDB in wintergrasp when a battle has started (non english clients)
+ * fixed - border style offset values will now save properly
+ * fixed - several locale updates
+
+------------------------------------------------------------------------
+r239 | arkayenro | 2010-07-07 14:02:34 +0000 (Wed, 07 Jul 2010) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   D /trunk/ArkInventoryRules
+   A /trunk/Modules
+   A /trunk/Modules/ArkInventoryRules
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRules.lua
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRules.toc
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRules.xml
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRulesExample
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRulesExample/ArkInventoryRulesExample.lua
+   A /trunk/Modules/ArkInventoryRules/ArkInventoryRulesExample/ArkInventoryRulesExample.toc
+
+ArkInventory:
+- alpha test 4
+------------------------------------------------------------------------
+r238 | arkayenro | 2010-07-07 13:55:47 +0000 (Wed, 07 Jul 2010) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+
+ArkInventory:
+- alpha test 2
+------------------------------------------------------------------------
+r237 | arkayenro | 2010-07-07 13:51:43 +0000 (Wed, 07 Jul 2010) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ArkInventory.lua
+   M /trunk/ArkInventory.toc
+   M /trunk/ArkInventoryCompanion.lua
+   M /trunk/ArkInventoryConfig.lua
+   M /trunk/ArkInventoryLDB.lua
+   M /trunk/ArkInventoryMenu.lua
+   A /trunk/ArkInventoryRules
+   A /trunk/ArkInventoryRules/ArkInventoryRules.lua
+   A /trunk/ArkInventoryRules/ArkInventoryRules.toc
+   A /trunk/ArkInventoryRules/ArkInventoryRules.xml
+   A /trunk/ArkInventoryRules/ArkInventoryRulesExample
+   A /trunk/ArkInventoryRules/ArkInventoryRulesExample/ArkInventoryRulesExample.lua
+   A /trunk/ArkInventoryRules/ArkInventoryRulesExample/ArkInventoryRulesExample.toc
+   M /trunk/ArkInventoryRules.lua
+   M /trunk/ArkInventoryStorage.lua
+   A /trunk/ArkInventorySync.lua
+   M /trunk/ArkInventoryUpgrades.lua
+   M /trunk/Locale/deDE.lua
+   M /trunk/Locale/enUS.lua
+   M /trunk/Locale/esES.lua
+   M /trunk/Locale/esMX.lua
+   M /trunk/Locale/frFR.lua
+   M /trunk/Locale/koKR.lua
+   M /trunk/Locale/ruRU.lua
+   M /trunk/Locale/zhCN.lua
+   M /trunk/Locale/zhTW.lua
+   M /trunk/VersionHistory.txt
+
+ArkInventory:
+- alpha test
+------------------------------------------------------------------------

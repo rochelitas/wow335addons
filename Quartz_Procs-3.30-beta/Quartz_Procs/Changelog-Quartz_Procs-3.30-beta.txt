@@ -1,0 +1,83 @@
+------------------------------------------------------------------------
+r30 | baffle | 2010-07-29 06:21:48 +0000 (Thu, 29 Jul 2010) | 1 line
+Changed paths:
+   A /tags/3.30-beta (from /trunk:29)
+
+tagging as 3.30-beta
+------------------------------------------------------------------------
+r29 | baffle | 2010-07-29 06:21:20 +0000 (Thu, 29 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+added better support for cooldowns
+------------------------------------------------------------------------
+r27 | baffle | 2010-07-29 01:20:00 +0000 (Thu, 29 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+bug fix for triggers + Proc Mode
+------------------------------------------------------------------------
+r25 | baffle | 2010-07-22 05:24:03 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+SPELL_CAST_START event added to Trigger procs
+------------------------------------------------------------------------
+r23 | baffle | 2010-07-22 02:14:42 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/classes/deathknight.lua
+   M /trunk/classes/druid.lua
+   M /trunk/classes/hunter.lua
+   M /trunk/classes/mage.lua
+   M /trunk/classes/paladin.lua
+   M /trunk/classes/priest.lua
+   M /trunk/classes/rogue.lua
+   M /trunk/classes/shaman.lua
+   M /trunk/classes/warlock.lua
+   M /trunk/classes/warrior.lua
+   M /trunk/quartzprocs.lua
+
+trigger proc update
+------------------------------------------------------------------------
+r21 | baffle | 2010-07-15 22:02:07 +0000 (Thu, 15 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+pally bug fix & trigger fix
+------------------------------------------------------------------------
+r19 | baffle | 2010-07-11 20:26:18 +0000 (Sun, 11 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/classes/deathknight.lua
+   M /trunk/classes/druid.lua
+   M /trunk/classes/hunter.lua
+   M /trunk/classes/mage.lua
+   M /trunk/classes/paladin.lua
+   M /trunk/classes/priest.lua
+   M /trunk/classes/rogue.lua
+   M /trunk/classes/shaman.lua
+   M /trunk/classes/warlock.lua
+   M /trunk/classes/warrior.lua
+   M /trunk/quartzprocs.lua
+
+class procs bug fix
+------------------------------------------------------------------------
+r17 | baffle | 2010-07-11 07:37:10 +0000 (Sun, 11 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+case insensitive update for custom procs
+------------------------------------------------------------------------
+r15 | baffle | 2010-07-10 22:16:54 +0000 (Sat, 10 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Quartz_Procs.toc
+   M /trunk/quartzprocs.lua
+
+case insensitive custom procs 3.22-beta
+------------------------------------------------------------------------

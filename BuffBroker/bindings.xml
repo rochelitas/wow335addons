@@ -1,0 +1,6 @@
+<bindings>
+	<!-- User interface keyboard bindings -->
+	<binding name="CLICK BuffBroker_CastSuggestionButton:LeftButton" header="BUFFBROKER_HEADER">
+		-- next suggestion
+	</binding>
+</bindings>

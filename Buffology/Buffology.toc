@@ -1,0 +1,15 @@
+## Interface: 30300
+## Author: Mischback
+## Title: Buffology
+## SavedVariablesPerCharacter: BuffologyOptions, BuffologyFrames, BuffologyAssignments, BuffologyFacade
+## SavedVariables: BuffologyAuraList
+## OptionalDeps: ButtonFacade
+## X-Category: Buffs/Debuffs
+## Notes: This addon handles buffs and debuffs of the player with filter possibilities.
+
+menu.xml
+settings.lua
+localization.lua
+lib.lua
+menu.lua
+core.lua

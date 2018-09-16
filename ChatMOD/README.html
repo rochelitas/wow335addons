@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="undefined">
+<HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+<TITLE>ChatMOD Readme</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF" DIR="LTR" LANG="de-DE">
+Tip:<br/>
+<a href="http://www.nuxnux.com" target="_blank"><img src="http://media.planetlan.com/images/website_content/General/nuxnux_468x60.gif" border="0"></a>
+
+
+<H1><FONT FACE="Helvetica, Arial, sans-serif">ChatMOD README</FONT></H1>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">How to Install ?</FONT></H3>
+<P><FONT FACE="Helvetica, Arial, sans-serif">Extract
+  the content of the ZIP File to you World of Warcraft Addon
+  directory.<BR>
+  e.g.:<I><FONT COLOR="#999999">&quot;C:\GAMES\World of
+  Warcraft\Interface\AddOns\&quot;</FONT></I><BR>
+  Make sure to extract
+  this files into a directory called &quot;ChatMOD&quot; else it
+  wouldn't work.</FONT></P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Command List:</FONT></H3>
+<blockquote>
+<p><font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif">/chatmod</font><font size="2" face="Arial, Helvetica, sans-serif"> brings up GUI<br>
+    	<font color="#FF0000">/chatmod ? </font>lists commands</font><br>
+    	<font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif">/chatmod chatstring</font><font size="2" face="Arial, Helvetica, sans-serif"> Toggle the way messages are disoplayed <br>
+        <font color="#FF0000">/chatmod timestamp </font>to turn off Timestamps. (IMPORTANT &ndash; see Readme.html for all parameters for this command.<br>
+        <font color="#FF0000">/clear </font>or <font color="#FF0000">/cls</font> This commands clear every visible chatframe.<br>
+        <font color="#FF0000">/chatmod initchan</font> &lt;channelname&gt; Which channel to start with when logging in.<br>
+        <font color="#FF0000"> /chatmod hidechanname</font> = Will supress the Channelname (default: off)<br>
+        <font color="#FF0000">/chatmod colornicks</font> = Toggle Nick coloring on and off (default: on)<br>
+        <font color="#FF0000">/chatmod purge</font> = Start the normal purge process done every start<br>
+        <font color="#FF0000">/chatmod timestamp</font> = add a timestamp<br>
+        <font color="#FF0000">/chatmod topeditbox </font>= relocate the editbox to the top of the chatframe<br>
+        <font color="#FF0000">/chatmod autodismount</font> toggle Auto Dismount feature<br>
+        <font color="#FF0000">/chatmod autogossipskip</font> toggle Gossip Skip Feature<br>
+        <font color="#FF0000">/chatmod shortchanname</font> ,displays a shorter version of the channelname<br>
+        <font color="#FF0000">/chatmod highlight</font> ; Specify customized highlightwords<br>
+        <font color="#FF0000">/chatmod AutoBGMap</font> ; toggle bgminimap autotoggeling<br>
+        <font color="#FF0000">/chatmod editboxkeys</font> are back<br>
+        <font color="#FF0000">/chatmod hidechatbuttons</font> Command to hide the chat buttons<br>
+        <font color="#FF0000">/chatmod status</font> Display current settings <br>
+        <font color="#FF0000">/chatmod selfhighlightmsg</font> <br>
+        <font color="#FF0000">/chatmod selfhighlight</font><br>
+        <font color="#FF0000">/chatmod killdb </font>empty the database of know player -&gt; class <br>
+        <font color="#FF0000">/chatmod clickinvite</font> enable click invite <br>
+        <font color="#FF0000">/chatmod hyperlink</font> enable hyperlink catcher <br>
+        <font color="#FF0000">/chatmod colormap </font>Colors the map pin's of raid users in their class color<br>
+        <font color="#FF0000">/chatmod mousescroll </font>toggles mouse scrolling of chat window? (only documented in the screenshot)</font><br>
+  <font size="2" face="Arial, Helvetica, sans-serif"><font color="#FF0000">/chatmod chatlink</font></font><font size="2" face="Arial, Helvetica, sans-serif"><font color="#FF0000"></font> toggle the Chatlink item posting in custom channels on / off</font></p>
+<p><font size="2" face="Arial, Helvetica, sans-serif"><font color="#FF0000">/seen </font> <font color="#999999"><em>&lt;playername&gt;</em></font> Show up Player information about the requested playername </font><br>
+</p>
+<p>&nbsp;</p>
+</blockquote>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">How to use ?</FONT> </H3>
+<P><FONT FACE="Helvetica, Arial, sans-serif">Just
+  type <B>/chatmod</B> in game and use the GUI or /chatmod ? for
+  command line options.<BR>
+  There are some additional Commands which can
+  be used. In general each GUI Command<BR>
+  is also available by
+  commandline but not every commandline option is toggleable by the
+  UI.<BR>
+  <BR>
+  To keep this short I only write down the commands which
+  are not accessible by the GUI.<BR>
+  Each command have to be passed to
+  Chatmod as paramenter /chatmod &lt;parameter&gt; for<BR>
+  example to
+  pass the timestamp command to Chatmod you have to type in <B><FONT COLOR="#009900">/chatmod
+  timestamp<BR>
+  </FONT></B><BR>
+  <BR>
+  /chatmod <B>timestamp</B>&nbsp;&nbsp;&nbsp;</FONT></P>
+<P><FONT FACE="Helvetica, Arial, sans-serif">This
+  command alow to customize the timestamp. It is neccessary to provide
+  a</FONT><BR>
+  <FONT FACE="Helvetica, Arial, sans-serif">2nd parameter
+  which is interpreted as the Timestamp. If you leave this 2nd
+  par.</FONT><BR>
+  <FONT FACE="Helvetica, Arial, sans-serif">empty the
+  timestamp is disabled. Example: <B><FONT COLOR="#009900">/chatmod
+  timestamp help</FONT></B></FONT><BR>
+  <FONT FACE="Helvetica, Arial, sans-serif">this
+  help will popup a screen with some hints how to configure the
+  timestamp.</FONT><BR>
+  <FONT FACE="Helvetica, Arial, sans-serif">Example:&nbsp;&nbsp;
+  &nbsp;/chatmod timestamp #FF0000$h:$m</FONT><BR>
+  <FONT FACE="Helvetica, Arial, sans-serif">Result:&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp; <FONT COLOR="#cc0000">10:23</FONT></FONT></P>
+<P><FONT FACE="Helvetica, Arial, sans-serif">Available
+  Format Strings are:</FONT></P>
+<DL>
+  <DL>
+    <DD>
+      <TABLE BORDER=1 CELLPADDING=2 CELLSPACING=0>
+        <TR>
+          <TD WIDTH=50 BGCOLOR="#cccccc"><P><B>$h </B> </P></TD>
+          <TD><P>Hour in 24h format </P></TD>
+        </TR>
+        <TR>
+          <TD WIDTH=50 BGCOLOR="#cccccc"><P><B>$t </B> </P></TD>
+          <TD><P>Hour in 12h format </P></TD>
+        </TR>
+        <TR>
+          <TD BGCOLOR="#cccccc"><P><B>$m </B> </P></TD>
+          <TD><P>Minute </P></TD>
+        </TR>
+        <TR>
+          <TD BGCOLOR="#cccccc"><P><B>$s </B> </P></TD>
+          <TD><P>Second </P></TD>
+        </TR>
+        <TR>
+          <TD BGCOLOR="#cccccc"><P><B>$p </B> </P></TD>
+          <TD><P>AM / PM </P></TD>
+        </TR>
+        <TR>
+          <TD BGCOLOR="#cccccc"><P><B>#XXXXXX </B> </P></TD>
+          <TD><P>Html Color Code </P></TD>
+        </TR>
+      </TABLE>
+  </DL>
+</DL>
+<P><BR>
+  Timestamps can be disabled by
+  entering: <B><FONT COLOR="#009900">/chatmod timestamp</FONT></B></P>
+<P><FONT FACE="Helvetica, Arial, sans-serif">/chatmod <B>clear &nbsp; &nbsp;</B> <I>or</I> &nbsp; &nbsp; <B>cls</B></FONT></P>
+<P>This commands clear every visible
+  chatframe.</P>
+<P><FONT FACE="Helvetica, Arial, sans-serif">/chatmod&nbsp;<B>initchan <I><FONT SIZE=2>&lt;channelname&gt;</FONT></I></B></FONT></P>
+<P>Since 1.11 wow set the last joined
+  channel as default channel for startup. With this command<BR>
+  you can
+  set any channel as default channel. The specified &lt;channelname&gt;
+  will be initialized at<BR>
+  the loading process. <FONT COLOR="#990000">Tip:
+  Casesensitive!</FONT> </P>
+<P>&nbsp;</P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">ChatSound Feature</FONT> </H3>
+<P>Since 1.05 beta 3 it is possible to
+  setup own mp3 files as sound notification event sounds. You can do
+  this<BR>
+  by replacing the 5 existing mp3 in the subfolder /audio/ in
+  the Addons/ChatMOD/ Directory. This can be<BR>
+  normal mp3s of your
+  choice. You can setup them later in the game by entering the
+  ChatSound menue in the<BR>
+  ChatMOD GUI by typing /chatmod </P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">The chatframe
+  Scrolldown Button</FONT></H3>
+<P>After requested by several users
+  ChatMOD &nbsp;now adds a button to the chatframe which is only
+  visible if you<BR>
+  have scrolled up in the window. If you click this
+  button you automaticaly going down. Time to time on some<BR>
+  Clients
+  the button is set to the middle of the screen. But this is not a huge
+  problem you can move the button<BR>
+  individualy like you wish. Simple
+  hold down the &lt;CTRL&gt; Key and drag the button to the Postition
+  you want.<BR>
+  After you stop draging and klick on the button this
+  position is saved and will be restored each time your<BR>
+  UI loads.
+  This is save per Charackter . </P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Mousewheel
+  Chatscrolling</FONT></H3>
+<P>With Chatmod you
+  are able to use your Mousewheel to scoll the Chatwindow:</P>
+<P><FONT color="#006600" SIZE=2>MOUSE-WHEEL-UP:
+  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1 line
+  up</FONT><BR>
+  <FONT color="#006600" SIZE=2>MOUSE-WHEEL-DOWN:
+  &nbsp;&nbsp;&nbsp; 1 line down</FONT><BR>
+  <FONT color="#006600" SIZE=2>&lt;SHIFT&gt;
+  &nbsp; &nbsp;MOUSE-WHEEL-UP: &nbsp;&nbsp;&nbsp; 3 lines up</FONT><BR>
+  <FONT color="#006600" SIZE=2>&lt;SHIFT&gt;
+  &nbsp; &nbsp;MOUSE-WHEEL-DOWN: &nbsp;&nbsp;&nbsp; 3 lines down</FONT><BR>
+  <FONT color="#006600" SIZE=2>&lt;CTRL&gt;
+  &nbsp; &nbsp;MOUSE-WHEEL-UP: &nbsp;&nbsp;&nbsp; Jump to top</FONT><BR>
+  <FONT color="#006600" SIZE=2>&lt;CTRL&gt;
+  &nbsp; &nbsp;MOUSE-WHEEL-DOWN: &nbsp;&nbsp;&nbsp; Jump to Bottom</FONT></P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Found a Bug or have a
+  Feature Request ?</FONT> </H3>
+<P>If you found a Bug or have a
+  Featurerequest please use the <a href="http://www.solariz.de/forum/index.php">provided
+  Forum on my Website</a> to Submit this.<BR>
+  You don't have to register,
+  you can submit Bugs / Requests Anonymous if you want to. Please use
+  this Form<BR>
+  because for me it is hard to recheck every Addonwebsite
+  day by day and browsing the comments, writing down,<BR>
+  checking and
+  finaly do the work. Because this Addon is, like all other WoW Addons
+  too, developed in the<BR>
+  sparetime of a hobby programmer I don't want
+  to stick in support and concentrate on the actual thing.</P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Donate ?</FONT> </H3>
+<P><FONT FACE="Helvetica, Arial, sans-serif">If
+  you would donate $1 to whatever, please feel free to do so ;)&nbsp;</FONT>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="https://www.paypal.com/de_DE/i/btn/x-click-but04.gif" border="0" name="submit" alt="Zahlen Sie mit PayPal - schnell, kostenlos und sicher!">
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+</form>  
+  </P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Updates by SVN ?</FONT> </H3>
+<P><FONT FACE="Helvetica, Arial, sans-serif">There is a public readonly Subversion SVN tree available. to Checkout try </FONT><a href="svn://www.solariz.de/chatmod/">svn://www.solariz.de/chatmod/</a><br>
+  <FONT FACE="Helvetica, Arial, sans-serif">If you don't know what SVN stands for or how to use check out <a href="http://en.wikipedia.org/wiki/Svn" target="_blank">this page</a>.</FONT></P>
+<H3><FONT FACE="Helvetica, Arial, sans-serif">Changelog ?</FONT> </H3>
+<P><FONT FACE="Helvetica, Arial, sans-serif">You can find the current Changelog Online by clicking <a href="http://www.solariz.de/websnv/log.php?repname=SCCN&path=%2F&rev=0&sc=0&isdir=1" target="_self">here</a>. </FONT></P>
+</BODY>
+</HTML>

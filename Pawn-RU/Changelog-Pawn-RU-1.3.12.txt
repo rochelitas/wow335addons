@@ -1,0 +1,67 @@
+------------------------------------------------------------------------
+r83 | mgotovtsev | 2010-09-24 07:26:39 +0000 (Fri, 24 Sep 2010) | 1 line
+Changed paths:
+   A /tags/1.3.12 (from /trunk:82)
+
+Created tag 1.3.12.
+------------------------------------------------------------------------
+r82 | mgotovtsev | 2010-09-24 07:26:23 +0000 (Fri, 24 Sep 2010) | 6 lines
+Changed paths:
+   M /trunk/Localization-ruRU.lua
+   M /trunk/Localization.lua
+   M /trunk/Pawn-RU.toc
+   M /trunk/Pawn.lua
+   M /trunk/PawnUI.lua
+   M /trunk/PawnUI.xml
+   M /trunk/Readme.htm
+
+Version 1.3.12
+
+    * A bunch of new fixes to make Pawn work on the Cataclysm beta and the 4.0 PTRs.  This version also works fine on live realms.
+          * Mastery rating now works again.
+          * The problem where Pawn would hang after scanning approximately 50 items has been resolved.
+          * Known issue: The suggested gems for your scales are still based on the colors and cuts of gems available in patch 3.3.
+------------------------------------------------------------------------
+r80 | mgotovtsev | 2010-08-31 09:59:46 +0000 (Tue, 31 Aug 2010) | 11 lines
+Changed paths:
+   M /trunk/Localization-ruRU.lua
+   M /trunk/Localization.lua
+   M /trunk/Pawn-RU.toc
+   M /trunk/Pawn.lua
+   M /trunk/PawnUI.lua
+   M /trunk/PawnUI.xml
+   M /trunk/Readme.htm
+   M /trunk/Version history.htm
+   M /trunk/Wowhead.lua
+
+Version 1.3.11
+
+    * Fixed an embarrassing typo that caused staves and polearms to not get Pawn values for classes that cannot also use two-handed swords, axes, and maces (everyone but warriors, I guess?).
+
+Version 1.3.10
+
+    * Stats with negative values will no longer be taken into account when normalizing item values.  (For example, if a scale is Stamina = 10, Intellect = 5, Spirit = -10, then all values for that scale will be divided by 15, not 5.)
+    * You can now mark stats as "unusable."  Items that have that stat on them will get no value for that scale.  For example, a scale for shamans can mark plate as unusable, and then all plate armor will get no value for that scale since shamans can't wear it.
+    * The built-in scales now take advantage of the unusable stats feature, so unequippable items will not receive values.  (Your character's current level is not taken into account for this, so for example low-level shamans and hunters will still get values on mail items even though they can't wear mail until level 40.)
+    * There are now separate stats for the one-handed and two-handed versions of axes, maces, and swords.  Existing scales that had a value for those weapon types will now only have a value for the one-handed version of those weapon types and will need to be updated manually.
+    * Hopefully fixed the bug that a few people were seeing where they sometimes could not select scales.  I finally ran into it myself and tried an on-the-spot fix that worked for me.
+------------------------------------------------------------------------
+r78 | mgotovtsev | 2010-08-24 21:58:20 +0000 (Tue, 24 Aug 2010) | 4 lines
+Changed paths:
+   M /trunk/Localization.lua
+   M /trunk/Pawn-RU.toc
+   M /trunk/PawnUI.lua
+   M /trunk/PawnUI.xml
+   M /trunk/Readme.htm
+   A /trunk/Textures/Background.tga
+   M /trunk/Textures/CompareBar.tga
+   M /trunk/Textures/CompareBarLeft.tga
+   M /trunk/Textures/CompareBarRight.tga
+   D /trunk/Textures/PawnUIHeader.tga
+   M /trunk/Version history.htm
+
+Version 1.3.9
+
+    * Improved the appearance of the Pawn UI.  It's now no longer translucent, so it should be easier to read the text in certain circumstances.
+    * Hopefully fixed the bug that a few people were seeing where they sometimes could not select scales.
+------------------------------------------------------------------------

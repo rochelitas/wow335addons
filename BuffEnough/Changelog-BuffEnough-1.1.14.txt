@@ -1,0 +1,535 @@
+------------------------------------------------------------------------
+r92 | nickodemus_wow | 2009-04-27 04:04:05 +0000 (Mon, 27 Apr 2009) | 1 line
+Changed paths:
+   A /tags/1.1.14 (from /trunk:91)
+
+Tagging as 1.1.14
+------------------------------------------------------------------------
+r91 | Nickodemus_wow | 2009-04-27 04:03:03 +0000 (Mon, 27 Apr 2009) | 4 lines
+Changed paths:
+   M /trunk/BuffEnough.lua
+   M /trunk/BuffEnough.toc
+   M /trunk/ClassBase.lua
+   M /trunk/Classes/Druid.lua
+   M /trunk/Classes/Paladin.lua
+   M /trunk/Classes/Shaman.lua
+   M /trunk/Classes/Warrior.lua
+   M /trunk/Config.lua
+   D /trunk/Locales/Locale-deDE.lua
+   M /trunk/Locales/Locale-enUS.lua
+   D /trunk/Locales/Locale-frFR.lua
+   M /trunk/Locales.xml
+
+- fix the LDB type field
+- fix a few blessing priorities
+- clean up some unused locales
+- clean up some debugging
+------------------------------------------------------------------------
+r90 | onyxmaster | 2009-04-18 11:20:59 +0000 (Sat, 18 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/Locale-ruRU.lua
+
+ruRU UI translation
+------------------------------------------------------------------------
+r89 | onyxmaster | 2009-04-18 10:41:31 +0000 (Sat, 18 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/Locales/Locale-ruRU.lua
+   M /trunk/Locales.xml
+
+added ruRU checks for flasks/elixirs (UI still enUS)
+------------------------------------------------------------------------
+r87 | Nickodemus_wow | 2009-04-16 07:20:06 +0000 (Thu, 16 Apr 2009) | 3 lines
+Changed paths:
+   M /trunk/BuffEnough.lua
+   M /trunk/ClassBase.lua
+
+- expect BoK from all pallies
+- expect PoS from all priests
+- change flask duration to 1 hour
+------------------------------------------------------------------------
+r85 | Nickodemus_wow | 2009-04-15 03:29:12 +0000 (Wed, 15 Apr 2009) | 1 line
+Changed paths:
+   M /trunk/BuffEnough.toc
+
+- bump toc
+------------------------------------------------------------------------
+r83 | Nickodemus_wow | 2009-02-07 07:55:57 +0000 (Sat, 07 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/Classes/DeathKnight.lua
+   M /trunk/Spells.lua
+
+- don't demand Horn of Winter when Strength of Earth is up
+------------------------------------------------------------------------
+r82 | Nickodemus_wow | 2009-02-07 07:31:29 +0000 (Sat, 07 Feb 2009) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   M /trunk/BuffEnough.toc
+   M /trunk/Config.lua
+   M /trunk/Frame.lua
+   M /trunk/Locales/Locale-deDE.lua
+   M /trunk/Locales/Locale-enUS.lua
+   M /trunk/Locales/Locale-frFR.lua
+
+- added support for LibSharedMedia
+- added in config options for display customization: border size, border color, inset size, border textures, background textures
+------------------------------------------------------------------------
+r80 | Nickodemus_wow | 2009-01-22 05:44:21 +0000 (Thu, 22 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/ClassBase.lua
+
+- correct paladin blessings for DK pets
+------------------------------------------------------------------------
+r78 | Nickodemus_wow | 2009-01-15 04:55:52 +0000 (Thu, 15 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Classes/DeathKnight.lua
+
+- enabling the pet config for DKs with Master of Ghouls might help
+------------------------------------------------------------------------
+r77 | Nickodemus_wow | 2009-01-15 04:26:00 +0000 (Thu, 15 Jan 2009) | 3 lines
+Changed paths:
+   M /trunk/Classes/DeathKnight.lua
+   M /trunk/Classes/Rogue.lua
+   M /trunk/Classes/Shaman.lua
+   M /trunk/Classes/Warlock.lua
+   M /trunk/Classes/Warrior.lua
+   M /trunk/Spells.lua
+
+- fixed issue with weapon buffs being reported to raid
+- added pet buff checks for DKs with Master of Ghouls talent
+- added check for Frost Presence (DKs) and Defensive Stance (warriors) for tanking
+------------------------------------------------------------------------
+r75 | Nickodemus_wow | 2009-01-06 07:30:10 +0000 (Tue, 06 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/BuffEnough.lua
+   M /trunk/BuffEnough.toc
+
+- added version to tooltip title
+------------------------------------------------------------------------
+r73 | Nickodemus_wow | 2009-01-05 03:51:25 +0000 (Mon, 05 Jan 2009) | 2 lines
+Changed paths:
+   M /trunk/Classes/Priest.lua
+   M /trunk/Spells.lua
+
+- changed default priest priority for paladin blessings to prefer kings first
+- fixed spell id for flask of chromatic wonder
+------------------------------------------------------------------------
+r71 | Nickodemus_wow | 2008-12-20 09:34:04 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/BuffEnough.lua
+   M /trunk/Classes/Druid.lua
+   M /trunk/Classes/Paladin.lua
+   M /trunk/Classes/Shaman.lua
+   M /trunk/Classes/Warrior.lua
+
+- no longer demand battle shout from warrior if warrior is expecting blessing of might
+------------------------------------------------------------------------
+r69 | Nickodemus_wow | 2008-12-19 08:00:35 +0000 (Fri, 19 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/BuffEnough.lua
+   M /trunk/Classes/Rogue.lua
+   M /trunk/Classes/Shaman.lua
+   M /trunk/Classes/Warlock.lua
+   M /trunk/Config.lua
+   M /trunk/Spells.lua
+
+- fix for missing elixirs that don't have proper tooltips
+- unfade indicator box for a ready check
+- remove weapon buff check from main consumables config and check it explicitly only for rogue, shaman, and warlock
+------------------------------------------------------------------------
+r67 | Nickodemus_wow | 2008-11-30 21:14:43 +0000 (Sun, 30 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/Spells.lua
+
+Addded missing Dalaran Intellect and Dalaran Brilliance
+------------------------------------------------------------------------
+r65 | Nickodemus_wow | 2008-11-26 03:25:18 +0000 (Wed, 26 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/Spells.lua
+
+Added missing Aspect of the Dragonhawk for hunters
+------------------------------------------------------------------------
+r63 | Nickodemus_wow | 2008-11-05 02:13:24 +0000 (Wed, 05 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/Spells.lua
+
+Fix fishing pole check
+------------------------------------------------------------------------
+r61 | Nickodemus_wow | 2008-10-18 00:55:08 +0000 (Sat, 18 Oct 2008) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/Spells.lua
+
+fix spell ID for Trueshot Aura
+------------------------------------------------------------------------
+r59 | Nickodemus_wow | 2008-10-15 00:20:49 +0000 (Wed, 15 Oct 2008) | 4 lines
+Changed paths:
+   M /trunk
+   M /trunk/BuffEnough.lua
+   M /trunk/BuffEnough.toc
+   M /trunk/ClassBase.lua
+   A /trunk/Classes/DeathKnight.lua
+   M /trunk/Classes/Druid.lua
+   M /trunk/Classes/Hunter.lua
+   M /trunk/Classes/Mage.lua
+   M /trunk/Classes/Paladin.lua
+   M /trunk/Classes/Priest.lua
+   M /trunk/Classes/Rogue.lua
+   M /trunk/Classes/Shaman.lua
+   M /trunk/Classes/Warlock.lua
+   M /trunk/Classes/Warrior.lua
+   M /trunk/Config.lua
+   M /trunk/Locales/Locale-deDE.lua
+   M /trunk/Locales/Locale-enUS.lua
+   M /trunk/Locales/Locale-frFR.lua
+   M /trunk/Spells.lua
+   D /trunk/embeds.xml
+
+BuffEnough:
+- update .toc
+- remove embeds.xml
+- updates for patch 3.0.2
+------------------------------------------------------------------------
+r58 | Nickodemus_wow | 2008-10-09 06:22:31 +0000 (Thu, 09 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+
+BuffEnough:
+- fix .pkgmeta for LibTalentQuery
+------------------------------------------------------------------------
+r56 | root | 2008-09-30 15:43:43 +0000 (Tue, 30 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Hopefully fix .pkgmeta
+------------------------------------------------------------------------
+r55 | root | 2008-09-29 22:04:06 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   M /trunk
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r53 | root | 2008-09-29 20:57:40 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/BuffEnough
+   A /trunk (from /tmp/trunk/BuffEnough:52)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r52 | nikkodemus | 2008-08-19 05:24:04 +0000 (Tue, 19 Aug 2008) | 2 lines
+Changed paths:
+   D /tmp/trunk/BuffEnough/WotLK
+
+BuffEnough:
+- branching typo gone awry
+------------------------------------------------------------------------
+r51 | nikkodemus | 2008-08-19 05:12:15 +0000 (Tue, 19 Aug 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/BuffEnough/WotLK (from /tmp/trunk/BuffEnough:50)
+
+BuffEnough:
+- wotlk branch
+------------------------------------------------------------------------
+r48 | nikkodemus | 2008-07-26 03:52:48 +0000 (Sat, 26 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Classes/Shaman.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-deDE.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+   M /tmp/trunk/BuffEnough/Spells.lua
+
+BuffEnough:
+- reverted previous change, improved detection of group buffs so as not to interfere with self-buffs for tracking purposes
+------------------------------------------------------------------------
+r47 | nikkodemus | 2008-07-25 07:46:37 +0000 (Fri, 25 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Classes/Shaman.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-deDE.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+   M /tmp/trunk/BuffEnough/Spells.lua
+
+BuffEnough:
+- change shamans to check explicitly for water shield
+------------------------------------------------------------------------
+r46 | nikkodemus | 2008-07-22 08:08:16 +0000 (Tue, 22 Jul 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Config.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-deDE.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+
+BuffEnough:
+- remove .tooltiptext, since it's going away from LBD anyway. Use custom field to do dynamic refresh of BuffEnough display tooltip when showing
+- added option to suspend checking buffs while in combat
+------------------------------------------------------------------------
+r45 | nikkodemus | 2008-07-15 01:28:03 +0000 (Tue, 15 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Frame.lua
+
+BuffEnough:
+- and then fix the lines appropriately
+------------------------------------------------------------------------
+r44 | nikkodemus | 2008-07-15 00:50:30 +0000 (Tue, 15 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+
+BuffEnough:
+-switch tooltip to using AddLine instead of SetText
+------------------------------------------------------------------------
+r43 | nikkodemus | 2008-07-14 08:55:33 +0000 (Mon, 14 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Frame.lua
+
+BuffEnough:
+- fixed LDB OnClick implementation
+------------------------------------------------------------------------
+r42 | nikkodemus | 2008-07-13 04:36:14 +0000 (Sun, 13 Jul 2008) | 4 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/BuffEnough.toc
+   M /tmp/trunk/BuffEnough/Config.lua
+   M /tmp/trunk/BuffEnough/Frame.lua
+   A /tmp/trunk/BuffEnough/LibDataBroker-1.1.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-deDE.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+
+BuffEnough:
+- first pass at integrating LibDataBroker
+- enabling the addon and showing the built-in display are now controlled separately, allowing the addon to be running and showing buff results in any display addon that supports LDB without requiring BuffEnough's own frame
+- added strata control to display
+------------------------------------------------------------------------
+r41 | nikkodemus | 2008-07-09 23:29:57 +0000 (Wed, 09 Jul 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/BuffEnough/Locales/Locale-deDE.lua
+   M /tmp/trunk/BuffEnough/Locales.xml
+
+BuffEnough:
+- added some deDE localization
+------------------------------------------------------------------------
+r40 | nikkodemus | 2008-07-07 07:50:41 +0000 (Mon, 07 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+
+BuffEnough:
+- one more try at fixing localization
+------------------------------------------------------------------------
+r39 | nikkodemus | 2008-06-26 08:06:35 +0000 (Thu, 26 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+
+BuffEnough:
+- fixed frFR localization
+------------------------------------------------------------------------
+r38 | nikkodemus | 2008-06-21 23:43:14 +0000 (Sat, 21 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+
+BuffEnough:
+- minor fix for possible bug in detecting buffers
+------------------------------------------------------------------------
+r37 | nikkodemus | 2008-06-20 08:32:36 +0000 (Fri, 20 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Config.lua
+
+BuffEnough:
+- run a new check when profile is changed
+------------------------------------------------------------------------
+r36 | nikkodemus | 2008-06-19 03:40:15 +0000 (Thu, 19 Jun 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/BuffEnough/Locales/Locale-frFR.lua
+   M /tmp/trunk/BuffEnough/Locales.xml
+
+BuffEnough:
+-added an example French localization
+------------------------------------------------------------------------
+r35 | nikkodemus | 2008-06-16 04:43:10 +0000 (Mon, 16 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+
+BuffEnough:
+- fix well fed buff
+------------------------------------------------------------------------
+r34 | nikkodemus | 2008-06-15 08:11:27 +0000 (Sun, 15 Jun 2008) | 4 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Config.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+
+BuffEnough:
+- fixed issue with flasks/elixirs/food buffs not warning when time left is low
+- changed reporting behavior so that right-clicking reports all missing buffs when solo
+- added ability to define custom buff checks through config
+------------------------------------------------------------------------
+r33 | nikkodemus | 2008-06-09 03:54:40 +0000 (Mon, 09 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Spells.lua
+
+BuffEnough:
+- fixed spell ID for Flask of Distilled Wisdom
+------------------------------------------------------------------------
+r32 | nikkodemus | 2008-06-07 18:46:05 +0000 (Sat, 07 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+
+BuffEnough:
+- weird startup error
+------------------------------------------------------------------------
+r31 | nikkodemus | 2008-06-07 18:24:33 +0000 (Sat, 07 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Classes/Warlock.lua
+
+BuffEnough:
+- fix for food buff not being detected
+------------------------------------------------------------------------
+r30 | nikkodemus | 2008-06-07 07:11:04 +0000 (Sat, 07 Jun 2008) | 12 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/BuffEnough.toc
+   M /tmp/trunk/BuffEnough/ClassBase.lua
+   M /tmp/trunk/BuffEnough/Classes/Hunter.lua
+   M /tmp/trunk/BuffEnough/Classes/Paladin.lua
+   M /tmp/trunk/BuffEnough/Classes/Warlock.lua
+   M /tmp/trunk/BuffEnough/Config.lua
+   M /tmp/trunk/BuffEnough/Frame.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/README.txt
+   M /tmp/trunk/BuffEnough/embeds.xml
+
+BuffEnough:
+- fixed missing AceTimer-3.0 lib
+- tightened up config a bit:
+ * cleaned up some localization and command line properties
+ * things that affect the buff check will now properly trigger a check when the config value is changed
+ * pet configuration is a separate group that now only shows for hunters/warlocks
+- added configuration option for warlocks with Demonic Sacrifice talent
+- BuffEnough now checks pets for raids buffs with configurable option
+- pet buffs should properly trigger auto-checks now
+- changed check for warlock imp pet phase shift so that it checks for the actual buff instead of auto-cast enable
+- added configuration option for not displaying BuffEnough while solo
+- changed blessing priority for paladins when solo so they made a little more sense (what do you mean you don't want salv while solo questing?)
+------------------------------------------------------------------------
+r29 | nikkodemus | 2008-06-05 01:08:01 +0000 (Thu, 05 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+
+BuffEnough:
+- stupid typo is stupid
+------------------------------------------------------------------------
+r28 | nikkodemus | 2008-06-04 08:12:35 +0000 (Wed, 04 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Frame.lua
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   M /tmp/trunk/BuffEnough/Spells.lua
+
+BuffEnough:
+- add ability to track who is casting buffs and whisper missing buffs directly to them
+------------------------------------------------------------------------
+r27 | nikkodemus | 2008-05-30 03:28:17 +0000 (Fri, 30 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/Spells.lua
+
+BuffEnough:
+- Fix bug where sometimes elixirs weren't being found
+- Add a quick hack to account for K'iru's Song of Victory (will still tell you you're missing fort if you don't have access to an imp fort buff)
+------------------------------------------------------------------------
+r26 | nikkodemus | 2008-05-28 02:11:52 +0000 (Wed, 28 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough
+   M /tmp/trunk/BuffEnough/BuffEnough.lua
+   M /tmp/trunk/BuffEnough/BuffEnough.toc
+   M /tmp/trunk/BuffEnough/Config.lua
+   M /tmp/trunk/BuffEnough/embeds.xml
+
+BuffEnough:
+- upgrade to LibGratuity-3.0
+- remove requirement for LibLogger-1.0
+------------------------------------------------------------------------
+r25 | nikkodemus | 2008-05-26 04:37:49 +0000 (Mon, 26 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+
+BuffEnough:
+- missing localization
+------------------------------------------------------------------------
+r24 | nikkodemus | 2008-05-25 08:48:08 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/Classes/Druid.lua
+   M /tmp/trunk/BuffEnough/Classes/Mage.lua
+   M /tmp/trunk/BuffEnough/Classes/Paladin.lua
+   M /tmp/trunk/BuffEnough/Classes/Priest.lua
+   M /tmp/trunk/BuffEnough/Classes/Rogue.lua
+   M /tmp/trunk/BuffEnough/Classes/Shaman.lua
+   M /tmp/trunk/BuffEnough/Classes/Warrior.lua
+
+BuffEnough:
+- missing locales in class modules
+------------------------------------------------------------------------
+r23 | nikkodemus | 2008-05-25 08:42:11 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough
+   M /tmp/trunk/BuffEnough/BuffEnough.toc
+
+BuffEnough:
+- fix missing LibLogger library
+------------------------------------------------------------------------
+r22 | nikkodemus | 2008-05-25 08:15:42 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough/README.txt
+
+BuffEnough:
+- all the externals this time?
+------------------------------------------------------------------------
+r21 | nikkodemus | 2008-05-25 08:10:32 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough
+
+BuffEnough:
+- with externals this time
+------------------------------------------------------------------------
+r20 | nikkodemus | 2008-05-25 07:58:07 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BuffEnough
+
+BuffEnough:
+-initial checkin
+------------------------------------------------------------------------
+r19 | nikkodemus | 2008-05-25 07:43:29 +0000 (Sun, 25 May 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/BuffEnough
+   A /tmp/trunk/BuffEnough/BuffEnough.lua
+   A /tmp/trunk/BuffEnough/BuffEnough.toc
+   A /tmp/trunk/BuffEnough/ClassBase.lua
+   A /tmp/trunk/BuffEnough/Classes
+   A /tmp/trunk/BuffEnough/Classes/Druid.lua
+   A /tmp/trunk/BuffEnough/Classes/Hunter.lua
+   A /tmp/trunk/BuffEnough/Classes/Mage.lua
+   A /tmp/trunk/BuffEnough/Classes/Paladin.lua
+   A /tmp/trunk/BuffEnough/Classes/Priest.lua
+   A /tmp/trunk/BuffEnough/Classes/Rogue.lua
+   A /tmp/trunk/BuffEnough/Classes/Shaman.lua
+   A /tmp/trunk/BuffEnough/Classes/Warlock.lua
+   A /tmp/trunk/BuffEnough/Classes/Warrior.lua
+   A /tmp/trunk/BuffEnough/Config.lua
+   A /tmp/trunk/BuffEnough/Frame.lua
+   A /tmp/trunk/BuffEnough/LICENSE.txt
+   A /tmp/trunk/BuffEnough/Locales
+   A /tmp/trunk/BuffEnough/Locales/Locale-enUS.lua
+   A /tmp/trunk/BuffEnough/Locales.xml
+   A /tmp/trunk/BuffEnough/README.txt
+   A /tmp/trunk/BuffEnough/ResizeGrip.tga
+   A /tmp/trunk/BuffEnough/Spells.lua
+   A /tmp/trunk/BuffEnough/embeds.xml
+
+BuffEnough:
+- initial import
+------------------------------------------------------------------------

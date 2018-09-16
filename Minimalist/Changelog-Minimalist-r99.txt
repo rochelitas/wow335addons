@@ -1,0 +1,67 @@
+------------------------------------------------------------------------
+r99 | whizkid | 2010-10-08 06:25:49 +0000 (Fri, 08 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.lua
+
+Minimalist: - (minor) Changed Daily Quest Symbol
+------------------------------------------------------------------------
+r98 | whizkid | 2010-09-30 09:41:14 +0000 (Thu, 30 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.lua
+
+Minimalist: - removed option to hide mail button (not working right when receiving new mail)
+------------------------------------------------------------------------
+r97 | whizkid | 2010-09-20 07:15:07 +0000 (Mon, 20 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.lua
+
+Minimalist: - Added option to hide the mail button from the Minimap (default = off)
+------------------------------------------------------------------------
+r96 | whizkid | 2010-09-13 07:04:13 +0000 (Mon, 13 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.toc
+
+Minimalist: - tagged for Cataclysm compatibility
+------------------------------------------------------------------------
+r95 | whizkid | 2010-09-10 10:47:34 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Minimalist: - clean-up
+------------------------------------------------------------------------
+r91 | whizkid | 2010-09-10 10:44:35 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   D /trunk/v87
+
+Minimalist: - remove branch
+------------------------------------------------------------------------
+r90 | whizkid | 2010-09-10 10:44:20 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   D /trunk/r85
+
+Minimalist: - remove branch
+------------------------------------------------------------------------
+r89 | whizkid | 2010-09-10 10:42:24 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.toc
+
+Minimalist: - fixed bad branch/packaging
+------------------------------------------------------------------------
+r88 | whizkid | 2010-09-10 06:24:40 +0000 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Minimalist.lua
+
+Minimalist: - Mostly small cosmetic fixes
+------------------------------------------------------------------------
+r87 | whizkid | 2010-09-07 08:02:07 +0000 (Tue, 07 Sep 2010) | 1 line
+Changed paths:
+   A /trunk/v87 (from /trunk:86)
+
+Minimalist: - tagging as release for curse client
+------------------------------------------------------------------------
+r86 | whizkid | 2010-09-06 11:03:13 +0000 (Mon, 06 Sep 2010) | 1 line
+Changed paths:
+   A /trunk/r85 (from /trunk:85)
+
+Minimalist: - tagging as release
+------------------------------------------------------------------------

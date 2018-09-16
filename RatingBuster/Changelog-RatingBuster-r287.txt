@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r287 | 7destiny | 2010-10-15 16:39:21 +0000 (Fri, 15 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/RatingBuster-Locale-koKR.lua
+
+- koKR Update
+------------------------------------------------------------------------
+r286 | whitetooth | 2010-10-02 10:15:26 +0000 (Sat, 02 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/RatingBuster.lua
+
+- Fixed some loading errors in 4.0
+------------------------------------------------------------------------
+r285 | cremor | 2010-06-03 14:46:28 +0000 (Thu, 03 Jun 2010) | 2 lines
+Changed paths:
+   M /trunk/RatingBuster-Locale-deDE.lua
+   M /trunk/RatingBuster.lua
+
+- "Hide Blizzard Item Comparisons" now also works for ItemRefTooltips
+- deDE update
+------------------------------------------------------------------------

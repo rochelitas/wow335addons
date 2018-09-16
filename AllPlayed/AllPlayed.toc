@@ -1,0 +1,50 @@
+## Interface: 30300
+## Author: LaoTseu
+## Title: AllPlayed
+## Notes: Track time played, rested XP and money for all characters
+## Notes-frFR: Suivi du temps de jeu, le nombre d'XP restant ainsi que l'argent pour tous les personnages
+## Notes-koKR: 모든 캐릭터의 플레이 시간, 휴식경험치, 금전현황 기록
+## Notes-zhCN: 追踪所有角色的在线时间，双倍经验与金钱
+## Notes-zhTW: 追蹤所有角色的在線時間，雙倍經驗與金錢
+## Version: 30300-2 $Revision: 210 $
+## X-Curse-Packaged-Version: 30300-2-Release
+## X-Curse-Project-Name: AllPlayed
+## X-Curse-Project-ID: all-played-laotseu
+## X-Curse-Repository-ID: wow/all-played-laotseu/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+## X-Credits: Thanks to Riboflavin for creating Titan_AllPlayed that inspired this addon. Thanks to next96 and chkid for the koKR, kuja for deDE, RoyalHawk and Mars1491 for zhZN, s8095324 and Mars1491 for zhTW and Orbital Digital, oXid_FoX and Beltza for frFR localizations.
+## X-Website: http://www.wowace.com/projects/all-played-laotseu/
+## X-AceForum: http://www.wowace.com/forums/index.php?topic=2042.0
+## X-RelSite-UI.WoW: 3485
+## X-RelSite-WoWI: 6158
+## X-RelSite-Curse: 4814
+## X-Category: Interface Enhancements
+## X-Date: $Date: 2010-04-18 14:02:10 +0000 (Sun, 18 Apr 2010) $
+
+## $Id: AllPlayed.toc 210 2010-04-18 14:02:10Z LaoTseu $
+
+## DefaultState: enabled
+
+## OptionalDeps: Ace3, LibAbacus-3.0, LibCrayon-3.0, !ClassColors, LibQTip-1.0, LibDBIcon-1.0
+
+## SavedVariables: AllPlayedDB
+
+# Libraries that should not be de-embeded
+LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+embeds.xml
+
+AllPlayed-enUS.lua
+AllPlayed-deDE.lua
+AllPlayed-frFR.lua
+AllPlayed-koKR.lua
+AllPlayed-zhCN.lua
+AllPlayed-zhTW.lua
+Config.lua
+
+AllPlayed.lua

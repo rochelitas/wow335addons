@@ -1,0 +1,64 @@
+------------------------------------------------------------------------
+r27 | davie3 | 2010-08-04 02:43:10 +0000 (Wed, 04 Aug 2010) | 1 line
+Changed paths:
+   A /tags/v1.1.1 (from /trunk:26)
+
+Tagging as v1.1.1
+------------------------------------------------------------------------
+r26 | davie3 | 2010-08-04 02:41:31 +0000 (Wed, 04 Aug 2010) | 3 lines
+Changed paths:
+   M /trunk
+   M /trunk/WhoTaunted.lua
+   M /trunk/WhoTaunted.toc
+
+New approach at removing color codes for outputs other then self.
+Toc update to 1.1.1.
+
+------------------------------------------------------------------------
+r24 | davie3 | 2010-07-19 18:20:40 +0000 (Mon, 19 Jul 2010) | 2 lines
+Changed paths:
+   M /trunk/WhoTaunted.lua
+   M /trunk/WhoTaunted.toc
+
+Have enUS local load first.
+White spaces.
+------------------------------------------------------------------------
+r23 | davie3 | 2010-07-19 18:09:50 +0000 (Mon, 19 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/WhoTaunted.toc
+
+Toc update to 1.1.
+------------------------------------------------------------------------
+r22 | davie3 | 2010-07-19 18:08:58 +0000 (Mon, 19 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/WhoTaunted.lua
+
+Fixed bug with some AOE taunts.
+Removed lots of commented code.
+
+------------------------------------------------------------------------
+r21 | davie3 | 2010-07-19 17:24:27 +0000 (Mon, 19 Jul 2010) | 11 lines
+Changed paths:
+   M /trunk/Data/Defaults.lua
+   M /trunk/Data/Options.lua
+   M /trunk/WhoTaunted.lua
+
+Fixed bug with Bg Disable option by adding a event hook for "PLAYER_ENTERING_WORLD".
+New TauntTypes table added and used in various places.
+New OutputTypes table added and used in various places.
+Added an OnEnable function to reset output options to the new OutputTypes table.
+Hide own taunts and failed taunts option added.
+Paladin Righteous Defense target option added.
+Chat window select option for print/self output added.
+Hide '<WhoTaunted>' prefix option added.
+Display ability used to taunt option added.
+Rewrote the new output rewrite. Nil checks added for parameters. There is now a single if statement inside each sub-event that checks for certain conditions and calls a return out of the function if one of them isn't met. All color codes are now just removed if the output is not self by using gsub and a little regex.
+All TauntData and CheckIfRecentlyTaunted references removed.
+------------------------------------------------------------------------
+r20 | davie3 | 2010-07-13 19:05:38 +0000 (Tue, 13 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/WhoTaunted.lua
+   M /trunk/WhoTaunted.toc
+
+Cleanup and begging of the output rewrite.
+------------------------------------------------------------------------

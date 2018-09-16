@@ -1,0 +1,11 @@
+Message: Interface\AddOns\MobInfo2\MI2_Events.lua:96: bad argument #1 to 'pairs' (table expected, got nil)
+Time: 09/16/18 09:47:55
+Count: 1
+Stack: [C]: in function `pairs'
+Interface\AddOns\MobInfo2\MI2_Events.lua:96: in function `f'
+Interface\AddOns\MobInfo2\MI2_Events.lua:657: in function `MI2_OnEvent'
+[string "*:OnEvent"]:1: in function <[string "*:OnEvent"]:1>
+
+Locals: (*temporary) = nil
+(*temporary) = "table expected, got nil"
+ = <function> defined =[C]:-1
